@@ -1,0 +1,243 @@
+
+If this seems familiar its redundant with 
+preceding section in mjm\_euv\_multi.tex.
+However, the terms are grouped differently to show tri-diagonal
+structure and detail the corner cases for small n.
+I wrote "mjm\_math" to do a few polynomial manipulations
+although it could probably be done in a variety of existing
+things like mathematica or sympy. 
+
+\begin{figure}[htb]
+\centering
+
+\cee{  X_0 + h$\nu$ -> X_1 }
+
+\cee{  X_{i-1} + h$\nu$ -> X_i }
+
+for i not equal zero or n,
+
+\cee{  X_i ->[k] X_{i-1} }
+
+\mjmeqn{\mjmdt{X_i}=-\phi X_i+\phi X_{i-1} + k X_{i+1}-k X_i 
+= \phi X_{i-1} -(\phi + k )  X_i + k X_{i+1} }
+
+otherwise with no decay from terminal state,
+
+\mjmeqn{\mjmdt{X_n}=\phi X_{n-1} }
+\mjmeqn{\mjmdt{X_{n-1}}=-(\phi+k) X_{n-1}+\phi X_{n-2}  }
+\mjmeqn{\mjmdt{X_0}=-\phi X_0+ k X_{1} }
+
+
+\caption{ With loss finite lifetime states but stable terminal state . }
+\label{fig:leakynrepeat}
+\end{figure}
+
+\mjmtol{
+
+wtf n=2,
+%\mjmeqn{\mjmdt{X_2}=\phi X_{1} }
+%\mjmeqn{\mjmdt{X_{1}}=-(\phi+k) X_{1}+\phi X_{0}  }
+%\mjmeqn{\mjmdt{X_0}=-\phi X_0+ k X_{1} }
+
+
+\mjmeqn{\mjmdtn{2}{X_2}=\phi \mjmdt{X_{1}} }
+\mjmeqn{\mjmdtn{2}{X_2}=\left( -(\phi+k)\phi X_{1}+\phi^2 X_{0}   \right) } 
+\mjmeqn{\mjmdtn{2}{X_2}=\left( -(\phi+k)\mjmdt{X_{2}}+\phi^2 X_{0}   \right) } 
+\mjmeqn{\mjmdtn{2}{X_2}+(\phi+k)\mjmdt{X_{2}}= \phi^2 X_{0}    } 
+\mjmeqn{\mjmdtn{3}{X_2}+(\phi+k)\mjmdtn{2}{X_{2}}= \phi^2 \mjmdt{X_{0}  }  } 
+\mjmeqn{\mjmdtn{3}{X_2}+(\phi+k)\mjmdtn{2}{X_{2}}
+= \phi^2 \left( -\phi X_0+ k X_{1} \right)  }  
+
+\mjmeqn{\mjmdtn{3}{X_2}+(\phi+k)\mjmdtn{2}{X_{2}}
+= -\phi^3 X_0+ k\phi \mjmdt{ X_{2} }  }  
+
+\mjmeqn{\mjmdtn{3}{X_2}+(\phi+k)\mjmdtn{2}{X_{2}}
+- k\phi \mjmdt{X_{2}}  = -\phi^3 X_0 }  
+
+\mjmeqn{\mjmdtn{3}{X_2}+(\phi+k)\mjmdtn{2}{X_{2}}
+- k\phi \mjmdt{X_{2}}  = 
+-\phi  \left( \mjmdtn{2}{X_2}+(\phi+k)\mjmdt{X_{2}} \right)
+}  
+\mjmeqn{\mjmdtn{3}{X_2}+(2*\phi+k)\mjmdtn{2}{X_{2}}
++\phi^2 \mjmdt{X_{2}}  = 0
+}  
+\mjmeqn{ r(r^2+(2\phi+k)r+\phi^2) =0 }
+
+\mjmeqn{ b^2=4\phi^2+k^2+4k\phi  }
+\mjmeqn{ b^2-4ac=k^2+4k\phi  }
+\mjmeqn{ r=-\phi-\frac{k}{2} \pm \sqrt{k(k+4\phi)}   }
+
+} % mjtol 
+
+
+\mjmtol{
+
+ n=3,
+\mjmeqn{\mjmdt{X_3}=\phi X_{2} }
+\mjmeqn{\mjmdt{X_{2}}=-(\phi+k) X_{2}+\phi X_{1}  }
+\mjmeqn{\mjmdt{X_{1}}=-(\phi+k) X_{1}+\phi X_{0}-k X_{2}  }
+\mjmeqn{\mjmdt{X_0}=-\phi X_0+ k X_{1} }
+
+
+\mjmeqn{\mjmdtn{2}{X_3}=\phi \mjmdt{X_{2}} }
+\mjmeqn{\mjmdtn{2}{X_3}=\left( -(\phi+k)\phi X_{2}+\phi^2 X_{1}   \right) } 
+\mjmeqn{\mjmdtn{2}{X_2}=\left( -(\phi+k)\mjmdt{X_{3}}+\phi^2 X_{1}   \right) } 
+\mjmeqn{\mjmdtn{2}{X_3}+(\phi+k)\mjmdt{X_{3}}= \phi^2 X_{1}    } 
+
+
+\mjmeqn{\mjmdtn{3}{X_3}+(\phi+k)\mjmdtn{2}{X_{3}}= \phi^2 \mjmdt{X_{1}}    } 
+
+\mjmeqn{\mjmdtn{3}{X_3}+(\phi+k)\mjmdtn{2}{X_{3}}= \phi^2 
+%\mjmdt{X_{1}}    
+\left( -(\phi+k) X_{1}+\phi X_{0}-k X_{2}  \right)
+} 
+
+\mjmeqn{\mjmdtn{3}{X_3}+(\phi+k)\mjmdtn{2}{X_{3}}=  
+%-\phi^2(\phi+k) X_{1}
+-(\phi+k)(\mjmdtn{2}{X_3}+(\phi+k)\mjmdt{X_{3}})  
++\phi^3 X_{0}
+%-k\phi^2 X_{2}  
+-k\phi \mjmdt{X_{3} } 
+} 
+
+\mjmeqn{\mjmdtn{3}{X_3}+2(\phi+k)\mjmdtn{2}{X_{3}}
++((\phi+k)^2+k\phi)\mjmdt{X_{3}})  
+=  \phi^3 X_{0}
+} 
+
+%\mjmeqn{\mjmdt{X_0}=-\phi X_0+ k X_{1} }
+\mjmeqn{\mjmdtn{4}{X_3}+2(\phi+k)\mjmdtn{3}{X_{3}}
++((\phi+k)^2+k\phi)\mjmdtn{2}{X_{3}})  
+=   
+ -\phi^4 X_0
++ k\phi^3 X_{1} 
+} 
+
+
+
+} % ssck n=3
+\mjmtol{ n==3 part 2
+
+repeat,
+
+\mjmeqn{\mjmdtn{4}{X_3}+2(\phi+k)\mjmdtn{3}{X_{3}}
++((\phi+k)^2+k\phi)\mjmdtn{2}{X_{3}})  
+=   
+ -\phi^4 X_0
++ k\phi^3 X_{1} 
+} 
+
+use identities,
+\mjmeqn{\mjmdtn{3}{X_3}+2(\phi+k)\mjmdtn{2}{X_{3}}
++((\phi+k)^2+k\phi)\mjmdt{X_{3}})  
+=  \phi^3 X_{0}
+} 
+\mjmeqn{\mjmdtn{3}{X_3}+(\phi+k)\mjmdtn{2}{X_{3}}= \phi^2 \mjmdt{X_{1}}    } 
+\mjmeqn{\mjmdtn{2}{X_3}+(\phi+k)\mjmdt{X_{3}}= \phi^2 X_{1}    } 
+
+\mjmeqn{\mjmdtn{4}{X_3}+2(\phi+k)\mjmdtn{3}{X_{3}}
++((\phi+k)^2+k\phi)\mjmdtn{2}{X_{3}})  
+=   
+% -\phi^4 X_0
+-\phi\mjmdtn{3}{X_3} -\phi 2(\phi+k)\mjmdtn{2}{X_{3}}
+-\phi((\phi+k)^2+k\phi)\mjmdt{X_{3}})  
+%+ k\phi^3 X_{1} 
++k\phi\mjmdtn{2}{X_3}+k\phi(\phi+k)\mjmdt{X_{3}} 
+} 
+
+\mjmeqn{\mjmdtn{4}{X_3}
++(3\phi+2k)\mjmdtn{3}{X_{3}}
++((\phi+k)^2+2k\phi+2\phi^2)\mjmdtn{2}{X_{3}}  
++\phi((\phi+k)^2-k*k)\mjmdt{X_{3}}  
+=  0 
+% -\phi^4 X_0
+%+ k\phi^3 X_{1} 
+} 
+
+
+\mjmeqn{\mjmdtn{4}{X_3}
++(3\phi+2k)\mjmdtn{3}{X_{3}}
+%+((\phi+k)^2+2k\phi+2\phi^2)\mjmdtn{2}{X_{3}}  
++(k^2+4k\phi +3\phi^2)\mjmdtn{2}{X_{3}}  
+%+\phi((\phi+k)^2-k*k)\mjmdt{X_{3}}  
++(\phi^3+2k\phi^2 )\mjmdt{X_{3}}  
+=  0 
+% -\phi^4 X_0
+%+ k\phi^3 X_{1} 
+} 
+
+
+
+
+} % n==3 part2
+
+
+
+
+The characteristic equation then is,
+
+\mjmeqn{\mjmdtn{2}{X_n}=\phi \mjmdt{X_{n-1}} }
+\mjmeqn{\mjmdtn{2}{X_n}=
+  \phi  \left( -(\phi+k) \mjmdt{X_{n-1}}+\phi \mjmdt{X_{n-2}}   \right) }
+
+\mjmeqn{\mjmdtn{2}{X_n}=
+  \phi  \left( -(\phi+k)\mjmdt{X_n}+\phi \mjmdt{X_{n-2}} \right) }
+
+\mjmeqn{\mjmdtn{2}{X_n}=
+   -(\phi+k)\phi\mjmdt{X_n}+\phi^2 \mjmdt{X_{n-2}}  }
+
+\mjmeqn{\mjmdtn{2}{X_n}+ (\phi+k)\phi \mjmdt{X_n}
+=\phi^2 \mjmdt{X_{n-2}}  }
+
+For n=2, 
+%\mjmeqn{\mjmdtn{2}{X_2}+ (\phi+k) \mjmdt{X_2} =\phi^2\left( -\phi X_0+ k X_{1} \right) =-\phi^3 X_0+ k\phi^2 \mjmdt{X_{2}} }
+%\mjmeqn{\mjmdtn{2}{X_2}+ (\phi+k) \mjmdt{X_2} =\phi^2\left( -\phi X_0+ k X_{1} \right) =-\phi^3 X_0+ k \phi X_{1} }
+
+
+\mjmeqn{\mjmdtn{2}{X_2}+ (\phi+k)\phi \mjmdt{X_2}
+=\phi^2\left( -\phi X_0+ k X_{1} \right)
+=-\phi^3 X_0+ k\phi \mjmdt{X_{2}} 
+}
+
+
+\mjmeqn{\mjmdtn{2}{X_2}+\phi^2\mjmdt{X_2} =-\phi^3 X_0 }
+
+\mjmeqn{\mjmdtn{3}{X_2}+ \phi^2  \mjmdtn{2}{X_2} =-\phi^3 \mjmdt{X_0}
+= \phi^4 X_0 - \phi^3 k X_1
+ }
+\mjmeqn{\mjmdtn{3}{X_2}+ \phi^2 \mjmdtn{2}{X_2} =-\phi^3 \mjmdt{X_0}
+= 
+% \phi^4 X_0 
+- \phi \mjmdtn{2}{X_2} - \phi^3\mjmdt{X_2} 
+- \phi^3 k X_1
+ }
+
+\mjmeqn{\mjmdtn{3}{X_2}+ (\phi^2+\phi ) \mjmdtn{2}{X_2} 
++ \phi^3 \mjmdt{X_2} 
+=- \phi^3 k X_1 = -\phi^2 k \mjmdt{X_2}
+ }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\mjmeqn{\mjmdtn{3}{X_2}+ (\phi^2+\phi ) \mjmdtn{2}{X_2} 
++  ( \phi^3 +\phi^2 k) \mjmdt{X_2} =0 
+ }
+
+
+\mjmeqn{ r(r^2+r(\phi+\phi^2)+\phi^2(\phi+k) ) =0 }
+
+\mjmeqn{ b^2=  \phi^2(1+2\phi+\phi^2)  }
+\mjmeqn{ b^2-4ac=  \phi^2(1+2\phi+\phi^2)-4*\phi^2(\phi+k)   }
+
+
+
+%\mjmeqn{\mjmdtn{3}{X_2}+ (\phi+k-k\phi ) \mjmdtn{2}{X_2} =-\phi^3 \mjmdt{X_0} =-\phi \left( \mjmdtn{2}{X_2}+ (\phi+k) \mjmdt{X_1} \right) }
+
+
+%\mjmeqn{\mjmdtn{3}{X_2}+ (2*\phi+k-k\phi ) \mjmdtn{2}{X_2} =-  (\phi+k) \mjmdtn{2}{X_2} }
+
+
+
+
+

@@ -1,0 +1,72 @@
+% https://tex.stackexchange.com/questions/231551/using-ifdefined-on-csname-macros
+ \ifdefined\mjmstandalone%
+%
+\else%
+\newcommand{\mjmstandalone}[1]{%
+  \ifdefined\MJMTEXFRAG%
+% \ifcsname\MJMTEXFRAG\endcsname%
+   #1%
+  \fi%
+}
+  \fi%
+
+
+\begin{table}[H] \centering
+\begin{tabular}{l|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{9}{c}{Properies of the n-photon sums}\\
+\hline
+$n_t$&n-needed &m - mid =5&n-p=.1&n -p =.9&range&range/n-ph&max d/dn&p at max d/dn \\
+\hline
+0&1&0.693&2.3&0.105&2.2&2.2&-1&1 \\
+1&2&1.68&3.89&0.532&3.36&1.68&-0.368&0.736 \\
+2&3&2.67&5.32&1.1&4.22&1.41&-0.271&0.677 \\
+3&4&3.67&6.68&1.74&4.94&1.23&-0.224&0.647 \\
+4&5&4.67&7.99&2.43&5.56&1.11&-0.195&0.629 \\
+5&6&5.67&9.27&3.15&6.12&1.02&-0.175&0.616 \\
+6&7&6.67&10.5&3.89&6.64&0.948&-0.161&0.606 \\
+7&8&7.67&11.8&4.66&7.11&0.889&-0.149&0.599 \\
+8&9&8.67&13&5.43&7.56&0.84&-0.14&0.593 \\
+9&10&9.67&14.2&6.22&7.98&0.798&-0.132&0.587 \\
+10&11&10.7&15.4&7.02&8.39&0.762&-0.125&0.583 \\
+11&12&11.7&16.6&7.83&8.77&0.731&-0.119&0.579 \\
+12&13&12.7&17.8&8.65&9.14&0.703&-0.114&0.576 \\
+13&14&13.7&19&9.47&9.49&0.678&-0.11&0.573 \\
+14&15&14.7&20.1&10.3&9.83&0.655&-0.106&0.57 \\
+15&16&15.7&21.3&11.1&10.2&0.635&-0.102&0.568 \\
+16&17&16.7&22.5&12&10.5&0.616&-0.0992&0.566 \\
+17&18&17.7&23.6&12.8&10.8&0.599&-0.0963&0.564 \\
+18&19&18.7&24.8&13.7&11.1&0.583&-0.0936&0.562 \\
+19&20&19.7&25.9&14.5&11.4&0.569&-0.0911&0.561 \\
+20&21&20.7&27&15.4&11.7&0.555&-0.0888&0.559 \\
+\hline
+97&98&97.7&111&85.5&25.3&0.259&-0.0405&0.527 \\
+98&99&98.7&112&86.5&25.5&0.257&-0.0403&0.527 \\
+99&100&99.7&113&87.4&25.6&0.256&-0.0401&0.527 \\
+100&101&101&114&88.4&25.7&0.255&-0.0399&0.527 \\
+101&102&102&115&89.3&25.8&0.253&-0.0397&0.526 \\
+\hline
+996&997&997&1.02e+03&957&67.2&0.0674&-0.0126&0.508 \\
+997&998&998&1.02e+03&958&66.3&0.0664&-0.0126&0.508 \\
+998&999&999&1.02e+03&959&65.3&0.0654&-0.0126&0.508 \\
+999&1000&1e+03&1.02e+03&960&64.3&0.0643&-0.0126&0.508 \\
+1000&1001&1e+03&1.02e+03&961&63.3&0.0633&-0.0126&0.508 \\
+1001&1002&1e+03&1.02e+03&962&62.3&0.0622&-0.0126&0.508 \\
+\hline
+\end{tabular}
+\caption{Tables may be old fashion but may be useful for reference here.
+The values include $n_t$ or upper sum limit, n the number of photons
+needed for success, the value of $<n>$ for P=.5,.1, and .9 to define the
+region of confusion and finally the maximum slope and its location $p$. 
+./mjm\_poisson.out -cmd "table nmax=20;v0=.1;v1=.9;write\_lbl=0;prec=3" quit
+}
+\label{tab:sumpoints}
+\end{table}
+
+Some of these results are tabulated in \mjmreftab{sumpoints} to illustrate
+trends and tradeoffs. As the number of photons is increased, more of course 
+are needed to get a response with good probability but the range
+of confusion where unpredictable results would be produced slowly shrinks
+as a percentage of the photon dose. 
+
+

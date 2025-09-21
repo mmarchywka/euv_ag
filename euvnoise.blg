@@ -1,0 +1,83 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: euvnoise.aux
+The style file: plainurl.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: euvnoiseNotes.bib
+Database file #2: euvnoise.bib
+Warning--entry type for "RoelGronheidadditionalDanielPSanders_Multi_trigger_resist_novel_2019" isn't style-file defined
+--line 711 of file euvnoise.bib
+Warning--entry type for "Ito_Chemical_Amplification_Resists_2005" isn't style-file defined
+--line 830 of file euvnoise.bib
+Warning--entry type for "Mack_Stochastic_limitations_2018" isn't style-file defined
+--line 1023 of file euvnoise.bib
+Warning--entry type for "Teich_Saleh_Photon_Bunching_1988" isn't style-file defined
+--line 1341 of file euvnoise.bib
+Warning--entry type for "DouglasGuerreroadditionalGillesRAmblard_lithography_resist_2023" isn't style-file defined
+--line 1528 of file euvnoise.bib
+Warning--I'm ignoring doi:10.1021/acs.jctc.4c01181's extra "url" field
+--line 2197 of file euvnoise.bib
+Warning--I'm ignoring doi:10.1021/acs.jctc.1c00303's extra "url" field
+--line 2228 of file euvnoise.bib
+Warning--entry type for "OswaldHWSiegmundfirstMarkAGummin_title_Progress_1996" isn't style-file defined
+--line 2245 of file euvnoise.bib
+Database file #3: mjm_tr.bib
+Database file #4: releases.bib
+Database file #5: ../copper/copper.bib
+Repeated entry---line 17280 of file ../copper/copper.bib
+ : @article{2025arXiv250118706W
+ :                             ,
+I'm skipping whatever remains of this entry
+"}" immediately follows an entry type---line 20088 of file ../copper/copper.bib
+ : %CI = {(c) The Author(s) 2022. Published by Oxford University Press. All rights reserved.  For Permissions, please email: journals.permissions@oup.com.
+ :                                                                                                                                                        },
+I'm skipping whatever remains of this entry
+Warning--empty journal in Chen_Chen_Chen_Kaohsiung_City_Kaohsiung_City_2025
+Warning--empty year in Denbeaux_Azhari_Ai_Understanding_onset_
+Warning--empty journal in Robinson_West_Midlands_England_United_2025
+You've used 46 entries,
+            2943 wiz_defined-function locations,
+            1052 strings with 23491 characters,
+and the built_in function-call counts, 23990 in all, are:
+= -- 2524
+> -- 1241
+< -- 4
++ -- 463
+- -- 412
+* -- 1657
+:= -- 3548
+add.period$ -- 181
+call.type$ -- 46
+change.case$ -- 344
+chr.to.int$ -- 0
+cite$ -- 49
+duplicate$ -- 556
+empty$ -- 1848
+format.name$ -- 412
+if$ -- 5958
+int.to.chr$ -- 0
+int.to.str$ -- 46
+missing$ -- 40
+newline$ -- 275
+num.names$ -- 92
+pop$ -- 539
+preamble$ -- 1
+purify$ -- 298
+quote$ -- 0
+skip$ -- 1611
+stack$ -- 0
+substring$ -- 608
+swap$ -- 201
+text.length$ -- 92
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 184
+warning$ -- 3
+while$ -- 107
+width$ -- 48
+write$ -- 602
+(There were 2 error messages)

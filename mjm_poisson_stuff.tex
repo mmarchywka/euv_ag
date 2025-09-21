@@ -1,0 +1,120 @@
+
+
+\section{Some Multi-photon Basics }
+
+While the goal of lithography is high resolution low noise pattern
+transfer, the initial analysis of the multi-photon processes
+concerns uniform illumination to produce a binary outcome.
+First, the probability of success or failure, in essence development
+or non-development of a given image feature, is examined as a function
+of the expected number of photons doses on that feature using
+just the Poisson distribtion. Then, some candidate chemical
+schemes are analyzed for their response curves and how they relate
+to imaging performance.  Overall the goal is to find a 
+system that generates high contrast with a minimum amount of light
+while providing low noise patterns and ideally having other features
+such as safe and cheap chemical implementations.   
+With high resolution patterning, even in the EUV, diffration or other
+optical issues will create edge profiles that deviate from perfect
+step functions. The part of this illumination profile in the 
+ambiguous region of the transfer curve, where success or failure
+is not assured, will create noise or uncertain results. So one 
+goal is to make the characteristic or exposure curve as step-like
+or sigmoidal as limiting by realizable chemical systems and light budget. 
+
+\subsection{ Probability of success when n-photons needed }
+
+
+The starting point for probability of success or failure when n
+indepenent events are required for success is the Poisson Distribution
+which is introduced in many optics and statistics textbooks.
+
+\mjmtol{ While not likely to be a source of confusion for this audience, its intersting to note the Poisson Effect may contributing to the competing approach
+of imprint lithography 
+\cite{Kim_Kyeong_Kwak_Poisson_EffectAssisted_Replication_Lithography_2024}
+}
+
+Its worth noting immediately that since we seek a solution and not
+just an exercise, that deviations from independene routinely occur
+due to the nature of a light source or electrons in the case
+of photon and electron counting
+\cite{Saito_Endo_Kodama_Electron_counting_theory_1992}
+\cite{Ban_Theory_electron_counting_1994}
+ both of which may be relevant in formulating a good solution for high-contrast imaging.
+Interesting phenomena occur, for example,  in lasers
+\cite{Teich_Saleh_Photon_Bunching_1988}
+and photolelectron statistics
+\cite{Meng_Poisson_photoelectron_statistics_1995}
+among others. 
+
+In this case we will consider the probability of getting n or
+fewer photons ( or electrons or whatever) as a function of  an expected number
+ $<n>$. 
+\newcommand{\mjmexpn}{<n>}
+\newcommand{\mjmpleqnt}{P(n<=n_t; <n>) }
+The probability of getting $n_t$ or fewer things with $\mjmexpn$ is
+%\mjmeqn{P(n<=n_t; <N>) = \sum_{k=0}^{n_t} \frac{\mjmexpn^k}{k!} exp(-\mjmexpn)}
+
+\mjmeqn{\mjmpleqnt = \sum_{k=0}^{n_t} \frac{\mjmexpn^k}{k!} exp(-\mjmexpn) \label{eqn:basicsum}}
+
+
+\mjmtol{ its interesting to note, surprising but of unknown significance,  in passing that there is always a higher probability of getting an even number of photons 
+
+\mjmeqn{P_{even}=\sum \frac{\mjmexpn^{2k})}{(2k)!} exp(-\mjmexpn ) 
+=cosh(\mjmexpn)exp(-\mjmexpn )=\frac{1+exp(-2\mjmexpn)}{2}} 
+
+although the opposite is the case of zero is excluded.  
+} 
+
+This simple sum  \mjmrefeqn{basicsum} is  a truncated taylor series 
+for exp(x) timex exp(-x).
+
+These sums will be used as non-exposure curves versus light dose
+or $\mjmexpn$ ( interchangeably with their complementary exposure curves). 
+In lithography a binary high-constrast image is
+desired which is opposite of what may be desired in other imaging
+applications where linearlity and high dynamic range matter. 
+Getting a sigmoidal rather than a linear curve early
+in the processing may have some benefits over thresholding later
+with a deverloper process. 
+
+Important features include the number of zero derivatives at the origin 
+and range
+of "confusion" where sucess probability is not near zero or one. 
+The general form of this sum is
+\mjmeqn{ S=P(x)exp(-x) } and its easy
+to show that 
+\mjmeqn{ \frac{d^mS}{dx^m}=exp(-x)(D-1)^m P(x)  } 
+where D is the derivative operator . More specialized to the
+current situation, the first 2 derivatives are
+
+\mjmeqn{\frac{d\mjmpleqnt}{d\mjmexpn} = -\frac{\mjmexpn^{n_t}}{n_t!} exp(-\mjmexpn)}
+
+and
+
+\mjmeqn{\frac{d^2\mjmpleqnt}{d\mjmexpn^2} = -\frac{\mjmexpn^{(n_t-1)}}{(n_t-1)!}\left(1-\frac{\mjmexpn}{n_t}  \right) exp(-\mjmexpn)}
+with the latter going to zero at $n_t=\mjmexpn $ 
+giving the maximum derivative as
+
+
+\mjmeqn{max(-\frac{d\mjmpleqnt}{d\mjmexpn})  = \frac{n_t^{n_t}}{n_t!} exp(-n_t)
+\label{eqn:maxder}}
+
+which brings to mind Stirling's approximation,
+\mjmeqn{n_t ! \approx \sqrt{ 2 \pi n_t } {n_t}^{n_t} e^{-n_t} } 
+
+\mjmeqn{max(-\frac{d\mjmpleqnt}{d\mjmexpn})  \approx
+ \frac{1}{\sqrt{2 \pi n_t} } \label{eqn:maxderap}  } 
+
+
+$D_{max}$ seems to decrease with $n_t$, 
+
+\mjmtolx{ this may not be right need to check}
+
+\mjmeqn{\frac{max(-d_{n+1})}{max(-d_n)}= exp(-1)\left(\frac{n+1}{n}\right)^n \approx .368 \left(\frac{n+1}{n}\right)^n }
+noting that 
+\mjmeqn{ lim_{n\rightarrow\infty} \left(\frac{n+1}{n}\right)^n =e }
+this goes to 1 for large n.  
+Similarly using \mjmrefeqn{maxderap},
+
+\mjmeqn{\frac{max(-d_{n+1})}{max(-d_n)} \approx \frac{\sqrt{n_t}}{\sqrt{n_t+1}}  }

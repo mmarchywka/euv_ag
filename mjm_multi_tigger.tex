@@ -1,0 +1,208 @@
+\subsection{Some EUV Resists - CAR and MTR etc}
+
+\subsubsection{Chemically Amplified  }
+
+Several good reviews exist
+\cite{Ito_Chemical_Amplification_Resists_2005}.
+The important points which can be found detailed in most
+references relate to multiple chemical reactions in response to
+one photon. 
+As usually used in the field, chemically amplified resists
+sense UV light with a photoacid generator(PAG) and use the
+generated acid to catalytically remove groups from a 
+polymer. Polymers with enough removed groups are lost
+during development.  PAG's appear to commonly use sulfur species.
+The "deprotection" scheme is common although polymerization and
+depolymerization are also possible. 
+
+A 2022 review compared some CAR's, MOR's, and MTR with an EUV interference
+grating illumination pattern demonstrating some benefits of the MTR 
+method although all resits had some limitations
+\cite{DouglasGuerreroadditionalGillesRAmblard_lithography_resist_2023}.
+Interfernce between plane waves would generate a sinusidal intensity
+profile and the resulting intensity profile is claimed as
+sinusoidal. In any case the line
+edges will not be digital or "sharp" and have some profile 
+although in actual lithography this may be different and variable
+the resist with a high-contrast transfer function may have 
+noise benefits. The spatial frequencies or other parameters of the
+noise may not be evident and problems like diffusion will not
+be considered but sharp transitions create a better starting point
+than exponential or gradual ones. 
+
+Attempts to optimize resist parameters for EUV have not always
+produced the expected results. A 2018 attempt to add proprietary Mg
+and related salts as sensitizers actually decreased EUV absorption
+and largely increased roughness while increasing acid generation
+and apparent electron generation
+\cite{Vesters_Jiang_Yamamoto_Sensitizers_extreme_ultraviolet_2018}.
+The ability to change the electron-hole pair generation energy,
+usually estimated using Klein's 3x the bandgrap rule in semoconductors,
+creates some interesting possibilities although impoved photon
+efficiency would probably help quanizatin problems more.
+
+More recently around the turn of the century, some benefits were
+observed with Sn in the right environment without amplification
+\cite{Belmonte_Cendron_Reddy_Mechanistic_insights_2020}.
+
+
+In the prior curves, "photon" was used as a generic term
+but in reality reactions could be initiated by electrons
+fron an initial absorption event or from the ambient.
+A background of ions may exist which could create a uniform
+fog or exposure and a multi-event resist may be able to
+avoid some of this pattern deterioration. 
+
+
+
+
+
+\subsubsection{Multi-trigger }
+
+Multi-trigger resists appear to be the closest thing to
+the multi-photon idea applied to DUV or EUV lithigography.
+A 2018 paper describes the concept as spec
+"The multi trigger
+resist (MTR) is a negative tone crosslinking resist that does not need a post exposure bake
+(PEB)"
+but gets to multi event property
+"e reaction will only proceed where
+an MTR molecule and a crosslinker are
+simultaneously activated in close proximity to each
+other"
+\cite{Popescu_Vesters_McClelland_Multi_Trigger_Resist_2018}
+although this work does not appear to show any rate equations or
+characteristic curves.
+
+\mjmtol{ make sure to come back after doing CAR as the acid 
+dynamics are unclear among other possible problems with the words.}
+
+A later paper 
+\cite{RoelGronheidadditionalDanielPSanders_Multi_trigger_resist_novel_2019}
+described some resist design considerations, "
+resolution, line edge roughness and sensitivity requirements, 
+with minimal defectivity. However, these parameters
+are linked by a fundamental trade-off in lithography (the RLS triangle)
+and it is difficult to overcome. For instance, addition of quenchers in
+chemically amplified resists (CAR) reduces the acid diffusion length and
+increases the resolution of the patterned features, but decreases the sensitivity,
+and impacts on material stochastics affecting the line edge roughness. Defectivity
+due to line collapse, bridging or line breaks is also a fundamental problem."
+ 
+The authors go on to illustrate the concept with pictures although no
+obvious reactions or rate equations.  From the pictures, the reaction
+sequence may be, 
+
+\cee{X + $h\nu$ -> P } 
+
+\cee{A ->[P] $A^\prime$ } 
+
+\cee{B ->[P] $B^\prime$ } 
+
+\cee{$A^\prime +B^\prime$  -> C  } 
+
+With C being the developer selectivity component.
+Rate equations would then be,
+
+\mjmeqn{ \mjmdt{X}= -\phi X }
+
+\mjmeqn{ \mjmdt{P}= -\mjmdt{X} }
+
+\mjmeqn{ \mjmdt{A}= -  A P ;  \mjmdt{A^\prime}= A P - \mjmdt{C} }
+
+\mjmeqn{ \mjmdt{B}= -  B P ; \mjmdt{B^\prime}= B P- \mjmdt{C} }
+
+\mjmeqn{ \mjmdt{C}= A^\prime B^\prime }
+
+X and P are straightforward,
+
+\mjmeqn{ X= X_0 exp(-\phi t) }
+\mjmeqn{ P= X_0(1- exp(-\phi t)) }
+with A and B being identical but more complicated,
+\mjmeqn{ \mjmdt{A}= -  A X_0(1-exp(-\phi t))   }
+\mjmeqn{ -ln(A) =  X_0(t+\frac{1}{\phi}exp(-\phi t))+c   }
+\mjmeqn{ ln(A) =  X_0(-t-\frac{1}{\phi}exp(-\phi t))+c   }
+
+\mjmeqn{ A =  A_0exp(-X_0 (t-\frac{1}{\phi}(1-exp(-\phi t))))   }
+as $\phi$ goes to zero this seems to have the right limit,
+
+\mjmeqn{ A \approx  A_0exp(-X_0 (t-\frac{1}{\phi}(\phi t)))   }
+
+Under these conditions A and B are identical leading to
+
+\mjmeqn{ \mjmdt{A^\prime}= A P - (A^\prime)^2 }
+\mjmeqn{ \mjmdt{A^\prime}= 
+A_0X_0exp(-X_0 (t-\frac{1}{\phi}(1-exp(-\phi t))))(1- exp(-\phi t)) 
+- (A^\prime)^2 }
+
+\subsection{Multi-trigger with quencher }
+
+Perhaps a little more accurately, consider the system
+with X and Z dead or inactive components, 
+
+
+\cee{A + $h\nu$ -> A^* } 
+
+\cee{Q + $h\nu$ -> X } 
+
+\cee{A^*  -> A } 
+
+\cee{A^* + Q -> Z } 
+
+with the final polymerization step being left vague as issues
+with strnaded monomers and crosslinking are ignored right now, 
+
+\cee{M+P ->[A^*] P } 
+
+\cee{M+M ->[A^*] P } 
+
+Taking the last process first, assume that a monomer can be attached
+to anything anywhere and that P regardless of shape or length
+is left after development,  
+
+\mjmeqn{ \mjmdt{P}= A^* M  }
+
+\mjmeqn{ \mjmdt{M}= -  A^* M  }
+
+The others are straightforward,
+
+\mjmeqn{ \mjmdt{A}= -A\phi  }
+\mjmeqn{ \mjmdt{Q}= -Qk_q\phi  }
+
+\mjmeqn{ \mjmdt{A^*}= A\phi  -\frac{1}{\tau} A^* -Q A^* }
+
+
+initial amounts of A,Q, and M are present and maybe drop time
+constant.  As with other cases,
+\mjmeqn{ A(t) = A_0exp(-\phi t)  }
+\mjmeqn{ Q(t) = Q_0exp(-k_q\phi t)  }
+
+\mjmpicture{quench.jpg}{ The quencher is paramterized to be destroyed before the catalyst is activated and destriryed. The initial slope should be zero but if the catalyst is depleted the final amount of polymer is limited below 1.  $  ./mjm\_poisson.out "test test=mtrigq;a0=5;tau=10;phif=10;q0=100;t=1;kq=20;dt=.001" quit  $ }{quench}
+
+
+
+
+\mjmeqn{ \mjmdt{A^*}= \phi A_0exp(-\phi t)
+				-Q_0exp(-\phi t) A^*   -\frac{1}{\tau} A^*  }
+Using an integrating factor,
+\mjmeqn{ F = (\int ( Q_0exp(-\phi t)+\frac{1}{\tau})dt)   }
+\mjmeqn{ F = (-\frac{ Q_0exp(-\phi t)}{\phi}+\frac{t}{\tau})  }
+
+\mjmeqn{A^* = exp(-F)\int(exp(F)A_0exp(-\phi t) dt) + C exp(-F) }
+The integral may be doable,
+
+\mjmeqn{I = \int(exp( -\frac{ Q_0exp(-\phi t)}{\phi}+\frac{t}{\tau}) A_0exp(-\phi t) dt) }
+
+
+\mjmeqn{I_t = \int(exp( -\frac{ Q_0exp(-\phi t)}{\phi}+\frac{t}{\tau})
+(  A_0exp(-\phi t)+\frac{A_0}{Q_0\tau}) dt) }
+
+\mjmeqn{\frac{d}{dt} (exp( -\frac{ Q_0exp(-\phi t)}{\phi}+\frac{t}{\tau}))
+= (Q_0exp(-\phi t) +\frac{1}{\tau}) exp(F)  
+}
+
+\mjmeqn{I_t = \frac{A_0}{Q_0}exp(F)}
+
+
+
+

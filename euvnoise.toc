@@ -1,0 +1,38 @@
+\contentsline {title}{EUV Lithography : Don't take my kodachrome away}{1}{section*.2}%
+\contentsline {abstract}{Abstract}{1}{section*.1}%
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{section*.3}%
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction }{3}{section*.4}%
+\contentsline {section}{\numberline {II}Some Multi-photon Basics }{3}{section*.5}%
+\contentsline {subsection}{\numberline {II.1} Probability of success when n-photons needed }{4}{section*.6}%
+\contentsline {section}{\numberline {III} Basic multi-photon systems and their curves }{7}{section*.7}%
+\contentsline {subsection}{\numberline {III.1} Cascade or Ladder }{8}{section*.8}%
+\contentsline {subsection}{\numberline {III.2} Cascade or Ladder with Finite Lifetime States }{8}{section*.9}%
+\contentsline {subsection}{\numberline {III.3} Simultaneous Multi-photon Absorption }{16}{section*.10}%
+\contentsline {subsection}{\numberline {III.4} Multi-step or maybe pyramind }{17}{section*.11}%
+\contentsline {subsection}{\numberline {III.5}Some EUV Resists - CAR and MTR etc}{18}{section*.12}%
+\contentsline {subsubsection}{\numberline {III.5.1}Chemically Amplified }{18}{section*.13}%
+\contentsline {subsubsection}{\numberline {III.5.2}Multi-trigger }{19}{section*.14}%
+\contentsline {subsection}{\numberline {III.6}Multi-trigger with quencher }{20}{section*.15}%
+\contentsline {section}{\numberline {IV}Silver Halides}{22}{section*.16}%
+\contentsline {subsection}{\numberline {IV.1}Notable featues Silver Halides}{22}{section*.17}%
+\contentsline {subsection}{\numberline {IV.2}Silver Bromide solid}{23}{section*.18}%
+\contentsline {section}{\numberline {V}X-ray detectors }{23}{section*.19}%
+\contentsline {subsection}{\numberline {V.1}sulfur}{23}{section*.20}%
+\contentsline {subsection}{\numberline {V.2}Non-local : grad, erode, dilate, etc }{23}{section*.21}%
+\contentsline {subsection}{\numberline {V.3}"Move Towards the Light" the EUV Litho Near Death Experience}{23}{section*.22}%
+\contentsline {section}{\numberline {VI}Early Events and Ultimate Fate }{23}{section*.23}%
+\contentsline {section}{\numberline {VII}Conclusions}{24}{section*.24}%
+\contentsline {section}{\numberline {VIII}Supplemental Information}{24}{section*.25}%
+\contentsline {subsection}{\numberline {VIII.1}Computer Code}{24}{section*.26}%
+\contentsline {section}{\numberline {IX}Bibliography}{25}{section*.27}%
+\contentsline {section}{\numberline {}References}{25}{section*.28}%
+\contentsline {section}{\numberline {}Acknowledgments}{27}{section*.29}%
+\appendix 
+\contentsline {section}{\numberline {A} Statement of Conflicts }{28}{section*.30}%
+\contentsline {section}{\numberline {B}About the Authors and Facility}{28}{section*.31}%
+\contentsline {section}{\numberline {C} Some Math Stuff }{28}{section*.32}%
+\contentsline {section}{\numberline {D}Symbols, Abbreviations and Colloquialisms}{28}{section*.33}%
+\contentsline {section}{\numberline {E}General caveats and disclaimer }{28}{section*.34}%
+\contentsline {section}{\numberline {F}Citing this as a tech report or white paper }{29}{section*.35}%
