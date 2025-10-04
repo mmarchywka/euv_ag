@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2025.7.10)  21 SEP 2025 07:29
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2025.7.10)  4 OCT 2025 18:14
  restricted system commands enabled.
  file:line:error style messages enabled.
 **euvnoise.tex
@@ -1415,8 +1415,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--62
 
  []
 
-) (./mjm_xray_detectors.tex [22]) (./mjm_ag_litho.tex) (./mjm_init_euv.tex
-[23]
+) (./mjm_xray_detectors.tex [22]) (./mjm_modelling_options.tex)
+(./mjm_ag_litho.tex) (./mjm_init_euv.tex [23]
 Overfull \hbox (13.45999pt too wide) in paragraph at lines 82--100
 []
  []
@@ -1426,73 +1426,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--100
 
  []
 
-) [24] (./euvnoise.bbl
+[24]) (./euvnoise.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 59--63
 []\TU/lmr/m/n/9 Fred-er-ick Chen.  Fred-er-ick chen linkedin pro-file.  08 2025.
   URL: [][]$\TU/lmtt/m/n/9 https://www.linkedin.com/in/
  []
 
-
-Underfull \hbox (badness 1142) in paragraph at lines 99--107
+[25]
+Underfull \hbox (badness 1142) in paragraph at lines 116--124
 []\TU/lmr/m/n/9 Mar-tin A. Green, Ya-jie Jiang, Ar-man Mah-boubi Soufi-ani, and Anita Ho-Baillie.  Op-ti-cal prop-er-ties of pho-
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 99--107
+Underfull \hbox (badness 1603) in paragraph at lines 116--124
 \TU/lmr/m/n/9 to-voltaic organic-inorganic lead halide per-ovskites.  \TU/lmr/m
 /it/9 The Jour-nal of Phys-i-cal Chem-istry Let-ters\TU/lmr/m/n/9 , 6, 12 2015.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--107
+Underfull \hbox (badness 10000) in paragraph at lines 116--124
 \TU/lmr/m/n/9 URL: [][]$\TU/lmtt/m/n/9 https://www.researchgate.net/profile/Arma
 n-[]Mahboubi-[]Soufiani/publication/283729703_Optical_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--107
+Underfull \hbox (badness 10000) in paragraph at lines 116--124
 \TU/lmtt/m/n/9 Properties_of_Photovoltaic_Organic-[]Inorganic_Lead_Halide_Perovs
 kites/links/614b94473c6cb31069875863/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--107
+Underfull \hbox (badness 10000) in paragraph at lines 116--124
 \TU/lmtt/m/n/9 Optical-[]Properties-[]of-[]Photovoltaic-[]Organic-[]Inorganic-[
 ]Lead-[]Halide-[]Perovskites.pdf$[][]\TU/lmr/m/n/9 , [][]$\TU/lmtt/m/n/9 doi:10.
 1021/acs.
  []
 
-[25]
-Underfull \hbox (badness 2990) in paragraph at lines 317--326
+[26]
+Underfull \hbox (badness 2990) in paragraph at lines 365--374
 []\TU/lmr/m/n/9 Mo-ham-mad S. M. Sai-ful-lah, Nikhil Ti-wale, and Ra-makr-ish-na
 n Gane-san.  Re-view of metal-containing re-
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 317--326
+Underfull \hbox (badness 6477) in paragraph at lines 365--374
 \TU/lmr/m/n/9 sists in elec-tron beam lithog-ra-phy: per-spec-tives for ex-treme
  ul-tra-vi-o-let pat-tern-ing.  \TU/lmr/m/it/9 Jour-nal of Mi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--326
+Underfull \hbox (badness 10000) in paragraph at lines 365--374
 \TU/lmr/m/it/9 cro/-Nanopat-tern-ing, Ma-te-ri-als, and Metrol-ogy\TU/lmr/m/n/9
  , 21, 10 2022.  URL: [][]$\TU/lmtt/m/n/9 https://www.spiedigitallibrary.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--326
+Underfull \hbox (badness 10000) in paragraph at lines 365--374
 \TU/lmtt/m/n/9 org/journals/journal-[]of-[]micro-[]nanopatterning-[]materials-[
 ]and-[]metrology/volume-[]21/issue-[]04/041402/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--326
+Underfull \hbox (badness 10000) in paragraph at lines 365--374
 \TU/lmtt/m/n/9 Review-[]of-[]metal-[]containing-[]resists-[]in-[]electron-[]beam
 -[]lithography/10.1117/1.JMM.21.4.041402.pdf$[][]\TU/lmr/m/n/9 ,
  []
 
-[26]) [27] Including 'mdpicomment' comment.
+) [27] [28] Including 'mdpicomment' comment.
 \openout4 = comment.cut
  Straight input of comment.cut.
 (./comment.cut) Including 'mdpicomment' comment.
@@ -1501,7 +1501,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 317--326
 Straight input of comment.cut. (./comment.cut Excluding 'comment' comment.
 (./mjm_math_stuff.tex) Excluding 'comment' comment.
 (/home/documents/latex/share/includes/disclaimer-gaslight.tex)
-(/home/documents/latex/share/includes/disclaimer-status.tex [28])
+(/home/documents/latex/share/includes/disclaimer-status.tex [29])
 (./releases.tex)
 Overfull \hbox (10.0pt too wide) in paragraph at lines 91--96
 []$[]$ 
@@ -1510,7 +1510,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 91--96
 Excluding 'comment' comment.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 110.
- (./euvnoise.bundle_checksums)) [29]
+ (./euvnoise.bundle_checksums [30])) [31]
 (./euvnoise.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
@@ -1521,16 +1521,16 @@ Package rerunfilecheck Info: File `euvnoise.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35460 strings out of 475512
- 305243,1977958 words of node,token memory allocated
- 2068 words of node memory still in use:
-   11 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 331 attribute, 80 glue_sp
-ec, 331 attribute_list, 17 pdf_action nodes
-   avail lists: 2:1392,3:1308,4:344,5:3614,6:111,7:23121,8:271,9:6164,10:31,11:1
-614
- 57177 multiletter control sequences out of 65536+600000
+ 35554 strings out of 475512
+ 931596,1648299 words of node,token memory allocated
+ 2098 words of node memory still in use:
+   11 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 334 attribute, 80 glue_sp
+ec, 334 attribute_list, 20 pdf_action nodes
+   avail lists: 1:1,2:7132,3:1356,4:356,5:22700,6:147,7:24151,8:271,9:46224,10:3
+1,11:2424
+ 57204 multiletter control sequences out of 65536+600000
  80 fonts using 5517839 bytes
- 124i,15n,116p,553b,1412s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 124i,15n,116p,553b,1406s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono9-regular.otf></usr/share/texmf
 /fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texmf/fonts/opentype/
 public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroma
@@ -1555,10 +1555,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy9.pfb>
-Output written on euvnoise.pdf (29 pages, 446862 bytes).
+Output written on euvnoise.pdf (31 pages, 458636 bytes).
 
-PDF statistics: 867 PDF objects out of 1000 (max. 8388607)
- 766 compressed objects within 8 object streams
- 290 named destinations out of 1000 (max. 131072)
+PDF statistics: 962 PDF objects out of 1000 (max. 8388607)
+ 858 compressed objects within 9 object streams
+ 352 named destinations out of 1000 (max. 131072)
  296 words of extra memory for PDF output out of 10000 (max. 100000000)
 

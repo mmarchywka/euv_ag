@@ -25,6 +25,14 @@ Warning--I'm ignoring doi:10.1021/acs.jctc.1c00303's extra "url" field
 --line 2228 of file euvnoise.bib
 Warning--entry type for "OswaldHWSiegmundfirstMarkAGummin_title_Progress_1996" isn't style-file defined
 --line 2245 of file euvnoise.bib
+Warning--entry type for "Kas_Rehr_Vila_Green_functions_applied_2022" isn't style-file defined
+--line 2562 of file euvnoise.bib
+Warning--entry type for "Rehr_Kas_Prange_Inelastic_Losses_Multi_2007" isn't style-file defined
+--line 2864 of file euvnoise.bib
+I was expecting an "="---line 2900 of file euvnoise.bib
+ : url 
+ :     a= {https://doi.org/10.1063/1.2644437},
+I'm skipping whatever remains of this entry
 Database file #3: mjm_tr.bib
 Database file #4: releases.bib
 Database file #5: ../copper/copper.bib
@@ -39,45 +47,45 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in Chen_Chen_Chen_Kaohsiung_City_Kaohsiung_City_2025
 Warning--empty year in Denbeaux_Azhari_Ai_Understanding_onset_
 Warning--empty journal in Robinson_West_Midlands_England_United_2025
-You've used 46 entries,
+You've used 54 entries,
             2943 wiz_defined-function locations,
-            1052 strings with 23491 characters,
-and the built_in function-call counts, 23990 in all, are:
-= -- 2524
-> -- 1241
-< -- 4
-+ -- 463
-- -- 412
-* -- 1657
-:= -- 3548
-add.period$ -- 181
-call.type$ -- 46
-change.case$ -- 344
+            1114 strings with 26280 characters,
+and the built_in function-call counts, 28201 in all, are:
+= -- 2968
+> -- 1464
+< -- 5
++ -- 545
+- -- 486
+* -- 1929
+:= -- 4148
+add.period$ -- 211
+call.type$ -- 54
+change.case$ -- 405
 chr.to.int$ -- 0
-cite$ -- 49
-duplicate$ -- 556
-empty$ -- 1848
-format.name$ -- 412
-if$ -- 5958
+cite$ -- 57
+duplicate$ -- 668
+empty$ -- 2158
+format.name$ -- 486
+if$ -- 7015
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 40
-newline$ -- 275
-num.names$ -- 92
-pop$ -- 539
+int.to.str$ -- 54
+missing$ -- 46
+newline$ -- 321
+num.names$ -- 108
+pop$ -- 639
 preamble$ -- 1
-purify$ -- 298
+purify$ -- 351
 quote$ -- 0
-skip$ -- 1611
+skip$ -- 1917
 stack$ -- 0
-substring$ -- 608
-swap$ -- 201
-text.length$ -- 92
+substring$ -- 696
+swap$ -- 260
+text.length$ -- 109
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 184
+type$ -- 216
 warning$ -- 3
-while$ -- 107
-width$ -- 48
-write$ -- 602
-(There were 2 error messages)
+while$ -- 124
+width$ -- 56
+write$ -- 701
+(There were 3 error messages)

@@ -87,6 +87,14 @@ Howard~T. Evans.
   {https://doi.org/10.1524/zkri.1979.150.14.299}
   {\path{doi:10.1524/zkri.1979.150.14.299}}.
 
+\bibitem{Ferenc_Matyus_Born_Oppenheimer_Dirac_2023}
+D\'{a}vid Ferenc and Edit M\'{a}tyus.
+\newblock Pre-born-oppenheimer dirac-coulomb-breit computations for two-body
+  systems.
+\newblock {\em Physical Review A}, 107, 05 2023.
+\newblock \href {https://doi.org/10.1103/physreva.107.052803}
+  {\path{doi:10.1103/physreva.107.052803}}.
+
 \bibitem{Fukuda_Statistics_exposed_2025}
 Hiroshi Fukuda.
 \newblock Statistics of euv exposed nanopatterns: Photons to molecular
@@ -94,6 +102,15 @@ Hiroshi Fukuda.
 \newblock {\em Journal of Applied Physics}, 137, 05 2025.
 \newblock \href {https://doi.org/10.1063/5.0254984}
   {\path{doi:10.1063/5.0254984}}.
+
+\bibitem{Gilmore_Vinson_Shirley_Efficient_implementation_core_2015}
+K.~Gilmore, John Vinson, E.L. Shirley, D.~Prendergast, C.D. Pemmaraju, J.J.
+  Kas, F.D. Vila, and J.J. Rehr.
+\newblock Efficient implementation of core-excitation bethe-salpeter equation
+  calculations.
+\newblock {\em Computer Physics Communications}, 197, 12 2015.
+\newblock \href {https://doi.org/10.1016/j.cpc.2015.08.014}
+  {\path{doi:10.1016/j.cpc.2015.08.014}}.
 
 \bibitem{Green_Jiang_Soufiani_Optical_Properties_Photovoltaic_2015}
 Martin~A. Green, Yajie Jiang, Arman~Mahboubi Soufiani, and Anita Ho-Baillie.
@@ -145,6 +162,12 @@ Pengyue Jin and Cui Wang.
 \newblock URL: \url{http://dx.doi.org/10.1039/D5CP00333D}, \href
   {https://doi.org/10.1039/D5CP00333D} {\path{doi:10.1039/D5CP00333D}}.
 
+\bibitem{Kas_Rehr_Vila_Green_functions_applied_2022}
+J.~J. Kas, J.~J. Rehr, and F.~D. Vila.
+\newblock Green's functions applied to the theory of spectroscopy, 07 2022.
+\newblock \href {https://doi.org/10.1107/s1574870720007521}
+  {\path{doi:10.1107/s1574870720007521}}.
+
 \bibitem{https://doi.org/10.1002/smll.202407966}
 Dowon Kim, Jinhwan Byeon, Jaeboong Ahn, Sangjin Kim, In-Uk Moon, Huijeong Ryu,
   Dong~Suk Oh, Yang~Hun Yoon, Hae-geun Jee, Chan-Cuk Hwang, and Sukwon Hong.
@@ -185,6 +208,16 @@ Puskal Kunwar, Jukka Hassinen, Godofredo Bautista, Robin~A Ras, and Juha
 \newblock {\em Scientific reports}, page 23998, 04 2016.
 \newblock URL: \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC4820741/}, \href
   {https://doi.org/10.1038/srep23998} {\path{doi:10.1038/srep23998}}.
+
+\bibitem{2025arXiv250109121L}
+Dario~A. {Leon}, Kristian {Berland}, and Claudia {Cardoso}.
+\newblock Spectral properties from an efficient analytical representation of
+  the $gw$ self-energy within a multipole approximation.
+\newblock {\em arXiv e-prints}, page arXiv:2501.09121, jan 2025.
+\newblock URL: \url{https://arxiv.org/pdf/2501.09121}, \href
+  {https://arxiv.org/abs/2501.09121} {\path{arXiv:2501.09121}}, \href
+  {https://doi.org/10.48550/arXiv.2501.09121}
+  {\path{doi:10.48550/arXiv.2501.09121}}.
 
 \bibitem{DBLP:conf/pics/Leubner99}
 Ingo~H. Leubner.
@@ -290,6 +323,21 @@ Carmen Popescu, Yannick Vesters, Alexandra McClelland, Danilo~De Simone, Guy
 \newblock \href {https://doi.org/10.2494/photopolymer.31.227}
   {\path{doi:10.2494/photopolymer.31.227}}.
 
+\bibitem{Rehr_Kas_Prange_Inelastic_Losses_Multi_2007}
+J.~J. Rehr, J.~J. Kas, M.~P. Prange, A.~P. Sorini, L.~W. Campbell, and F.~D.
+  Vila.
+\newblock Inelastic losses and multi-electron excitations in x-ray spectra.
+\newblock \href {https://doi.org/10.1063/1.2644437}
+  {\path{doi:10.1063/1.2644437}}.
+
+\bibitem{Rehr_Kas_Prange_initio_theory_2009}
+John~J. Rehr, Joshua~J. Kas, Micah~P. Prange, Adam~P. Sorini, Yoshinari
+  Takimoto, and Fernando Vila.
+\newblock Ab initio theory and calculations of x-ray spectra.
+\newblock {\em Comptes Rendus. Physique}, 10, 2009.
+\newblock \href {https://doi.org/10.1016/j.crhy.2008.08.004}
+  {\path{doi:10.1016/j.crhy.2008.08.004}}.
+
 \bibitem{Ritschdorff_Nielson_Shear_Multi_focal_multiphoton_lithography_2012}
 Eric~T. Ritschdorff, Rex Nielson, and Jason~B. Shear.
 \newblock Multi-focal multiphoton lithography.
@@ -382,6 +430,24 @@ Yuelin Yang, Jie Guan, Nannan Zhang, Lin Ru, Yihao Zou, and Yuanyuan Wang.
 \newblock {\em J. Mater. Chem. A}, 12:32505--32525, 2024.
 \newblock URL: \url{http://dx.doi.org/10.1039/D4TA06618A}, \href
   {https://doi.org/10.1039/D4TA06618A} {\path{doi:10.1039/D4TA06618A}}.
+
+\bibitem{Zaitsevskii_Mosyagin_Oleynichenko_Generalized_relativistic_smallcore_pseudopotentials_2023}
+Andr\'{e}i Zaitsevskii, Nikolai~S. Mosyagin, Alexander~V. Oleynichenko, and
+  Ephraim Eliav.
+\newblock Generalized relativistic smallcore pseudopotentials accounting for
+  quantum electrodynamic effects: Construction and pilot applications.
+\newblock {\em International Journal of Quantum Chemistry}, 123, 04 2023.
+\newblock \href {https://doi.org/10.1002/qua.27077}
+  {\path{doi:10.1002/qua.27077}}.
+
+\bibitem{Zhou_Yao_Blum_electron_2024}
+Ruiyi Zhou, Yi~Yao, Volker Blum, Xinguo Ren, and Yosuke Kanai.
+\newblock All-electron bse@gw method with numeric atom-centered orbitals for
+  extended systems.
+\newblock {\em arXiv}, 06 2024.
+\newblock URL: \url{https://arxiv.org/abs/2406.11122}, \href
+  {https://doi.org/10.48550/arxiv.2406.11122}
+  {\path{doi:10.48550/arxiv.2406.11122}}.
 
 \bibitem{Zhu_Yoo_Jursinic_Characteristics_sensitometric_curves_2003}
 X.~R. Zhu, S.~Yoo, P.~A. Jursinic, D.~F. Grimm, F.~Lopez, J.~J. Rownd, and

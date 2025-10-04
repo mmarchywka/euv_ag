@@ -22,17 +22,17 @@
 \contentsline {subsection}{\numberline {V.1}sulfur}{23}{section*.20}%
 \contentsline {subsection}{\numberline {V.2}Non-local : grad, erode, dilate, etc }{23}{section*.21}%
 \contentsline {subsection}{\numberline {V.3}"Move Towards the Light" the EUV Litho Near Death Experience}{23}{section*.22}%
-\contentsline {section}{\numberline {VI}Early Events and Ultimate Fate }{23}{section*.23}%
-\contentsline {section}{\numberline {VII}Conclusions}{24}{section*.24}%
-\contentsline {section}{\numberline {VIII}Supplemental Information}{24}{section*.25}%
-\contentsline {subsection}{\numberline {VIII.1}Computer Code}{24}{section*.26}%
+\contentsline {section}{\numberline {VI}Early Events and Ultimate Fate }{24}{section*.23}%
+\contentsline {section}{\numberline {VII}Conclusions}{25}{section*.24}%
+\contentsline {section}{\numberline {VIII}Supplemental Information}{25}{section*.25}%
+\contentsline {subsection}{\numberline {VIII.1}Computer Code}{25}{section*.26}%
 \contentsline {section}{\numberline {IX}Bibliography}{25}{section*.27}%
 \contentsline {section}{\numberline {}References}{25}{section*.28}%
 \contentsline {section}{\numberline {}Acknowledgments}{27}{section*.29}%
 \appendix 
-\contentsline {section}{\numberline {A} Statement of Conflicts }{28}{section*.30}%
-\contentsline {section}{\numberline {B}About the Authors and Facility}{28}{section*.31}%
-\contentsline {section}{\numberline {C} Some Math Stuff }{28}{section*.32}%
-\contentsline {section}{\numberline {D}Symbols, Abbreviations and Colloquialisms}{28}{section*.33}%
-\contentsline {section}{\numberline {E}General caveats and disclaimer }{28}{section*.34}%
-\contentsline {section}{\numberline {F}Citing this as a tech report or white paper }{29}{section*.35}%
+\contentsline {section}{\numberline {A} Statement of Conflicts }{29}{section*.30}%
+\contentsline {section}{\numberline {B}About the Authors and Facility}{29}{section*.31}%
+\contentsline {section}{\numberline {C} Some Math Stuff }{29}{section*.32}%
+\contentsline {section}{\numberline {D}Symbols, Abbreviations and Colloquialisms}{29}{section*.33}%
+\contentsline {section}{\numberline {E}General caveats and disclaimer }{29}{section*.34}%
+\contentsline {section}{\numberline {F}Citing this as a tech report or white paper }{30}{section*.35}%

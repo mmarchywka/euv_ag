@@ -356,6 +356,7 @@ INPUT ./keep/quench.jpg
 INPUT ./keep/quench.jpg
 INPUT ./mjm_ag_halides.tex
 INPUT ./mjm_xray_detectors.tex
+INPUT ./mjm_modelling_options.tex
 INPUT ./mjm_ag_litho.tex
 INPUT ./mjm_init_euv.tex
 INPUT /home/marchywka/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc

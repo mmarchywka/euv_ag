@@ -1,0 +1,59 @@
+
+
+
+
+Initial discussion on JDFTX issue forum suggested looking at 
+GW/BSE. A quick liteerature search found a few existing and active
+projects although not all open. Introductory material
+often introduces the Green Function and self energy in the context
+of X-ray interactions with matter and several open articles
+exist. A 2022 work introduces Green's function with Fermi Golden rule
+ progressing to multi-pole and multi-electron with Debye-Waller
+vibrations 
+results  is compared with X-ray absorption and XPS experiments
+\cite{Kas_Rehr_Vila_Green_functions_applied_2022}. 
+A 2008 much more detailed paper discusses similar concepts
+and the code FEFF 
+\cite{Rehr_Kas_Prange_initio_theory_2009}.
+
+A 2024 numeric all electron implementation of GW/BSE used reolution of identity
+and implemented in not ao opwn FHI-aims code 
+\cite{Zhou_Yao_Blum_electron_2024}.
+A 2025 paper used analytical approximations including a multipole-Pade 
+expression for the Green's Function
+\cite{2025arXiv250109121L}.
+A 2006 paper introduced the OCEAN code with results mostly above 200 eV
+\cite{Gilmore_Vinson_Shirley_Efficient_implementation_core_2015}.
+Another short introduction with good match to experiement was
+a 2007 conference paper 
+\cite{Rehr_Kas_Prange_Inelastic_Losses_Multi_2007}.
+
+Generally relativistic effects are not mentioned although the Dirac
+Equation does come up in passing. Usually the ground state is found
+with DFT which of course could use fully relativistic pseudopotetials.
+They may be ignored even in heavy elements leading to things like 
+difficulty finding potential of lead-acid battery versus tin
+\cite{Ahuja_Blomqvist_Larsson_Relativity_Lead_2011}
+. As comparing heavier elements will likely be important including
+relativity consistently may be worthwhile.
+QED has also been included in pseudopotential design with reduced
+core states
+\cite{Zaitsevskii_Mosyagin_Oleynichenko_Generalized_relativistic_smallcore_pseudopotentials_2023}.
+Fully relativistic BSE and DCB ( Dirac Coulomb Breit ) are current
+topics \cite{Ferenc_Matyus_Born_Oppenheimer_Dirac_2023}.
+
+
+
+Its also likely that results from surface-light interactions and
+2D materials will be thought provoking or useful. Surface enhanced
+interactions with candidate elements such as Ag are well known.
+Literature here is diverse and may include things like surface
+enhanced Raman or topological insulators. 
+
+Simplifications can rely on approximations or a shift from numerical
+to more analytical techniques. There is some hope that a more complete
+physical dscription, fully relativistic with retardation, could
+lead to some easier analysis but that remains to be demonstrated.
+
+
+
