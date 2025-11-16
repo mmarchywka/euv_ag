@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2025.7.10)  15 NOV 2025 19:14
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2025.7.10)  16 NOV 2025 15:40
  restricted system commands enabled.
  file:line:error style messages enabled.
 **euvnoise.tex
@@ -40,8 +40,8 @@ Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
-Inserting `tracingstacklevels' in `input_level_string'. (./junk/myrevtexheaders
-.tex
+Inserting `tracingstacklevels' in `input_level_string'. (/home/documents/latex/
+share/includes/myrevtexheaders.tex
 (/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-2.cls
 Document Class: revtex4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for
  documentation)
@@ -241,7 +241,7 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip57
 \backup@length=\skip58
 ))
-(./junk/myskeletonpackages.tex
+(/home/documents/latex/share/includes/myskeletonpackages.tex
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
 
@@ -379,7 +379,8 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \fb@frh=\dimen159
 \FrameRule=\dimen160
 \FrameSep=\dimen161
-) (./junk/lgrind.sty
+)
+(/home/documents/latex/pkg/lgrind.sty
 Package: lgrind 1997/01/30 v3.4 LGrind environment and supporting stuff
 \lc@unt=\count317
 \ln@xt=\count318
@@ -391,7 +392,8 @@ Package: lgrind 1997/01/30 v3.4 LGrind environment and supporting stuff
 \tb@x=\box79
 \TBw@d=\dimen162
 \@ts=\dimen163
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -581,7 +583,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip70
 )
-(./junk/fltpage.sty
+(/home/documents/latex/pkg/fltpage.sty
 Package: fltpage 1998/10/29 v.0.3 Floats on full page (SMU)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
@@ -1089,7 +1091,7 @@ Package morefloats Info: Maximum number of possible floats asked for: 36
 (morefloats)             LaTeX might run out of memory before this
 (morefloats)             (in which case it will notify you).
 )
-(./junk/recent_template.tex
+(/home/documents/latex/share/includes/recent_template.tex
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count383
 \lst@gtempboxa=\box109
@@ -1121,12 +1123,15 @@ Package: listings 2024/09/23 1.10c (Carsten Heinz)
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(./junk/myskeletonpackages.tex)
+(/home/documents/latex/share/includes/myskeletonpackages.tex)
 
 Package array Warning: Column . is already defined on input line 26.
 
-Excluding 'comment' comment. (./junk/mycommands.tex (./junk/mjmaddbib.tex)
-(./junk/mjmlistings.tex)) (./euvnoise.last_page) Excluding 'comment' comment.
+Excluding 'comment' comment.
+(/home/documents/latex/share/includes/mycommands.tex
+(/home/documents/latex/share/includes/mjmaddbib.tex)
+(/home/documents/latex/share/includes/mjmlistings.tex)) (./euvnoise.last_page)
+Excluding 'comment' comment.
 \desttabw=\skip112
 \chainwidth=\skip113
 \slantwidth=\skip114
@@ -1136,9 +1141,8 @@ Excluding 'comment' comment. (./junk/mycommands.tex (./junk/mjmaddbib.tex)
 \subwfigwidthrot=\skip118
 \myboxwidth=\skip119
 \picwidth=\skip120
-
-Include comment 'mdpicomment' Excluding comment 'draftcomment'
-Excluding comment 'badmathcomment'
+ Include comment 'mdpicomment'
+Excluding comment 'draftcomment' Excluding comment 'badmathcomment'
 Class revtex4-2 Info: Unrecognized array package. Please update this document c
 lass! (Proceeding with fingers crossed.) on input line 314.
 
@@ -1533,7 +1537,8 @@ lustration-[]in-[]a-[]Helium-[]Atom.
 
 Straight input of comment.cut. (./comment.cut Excluding 'comment' comment.
 (./mjm_math_stuff.tex) Excluding 'comment' comment.
-(./junk/disclaimer-gaslight.tex) (./junk/disclaimer-status.tex [29])
+(/home/documents/latex/share/includes/disclaimer-gaslight.tex)
+(/home/documents/latex/share/includes/disclaimer-status.tex [29])
 (./releases.tex)
 Overfull \hbox (10.0pt too wide) in paragraph at lines 91--96
 []$[]$ 
@@ -1553,14 +1558,14 @@ Package rerunfilecheck Info: File `euvnoise.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35583 strings out of 475512
- 931607,1648299 words of node,token memory allocated
+ 35569 strings out of 475512
+ 596215,1648299 words of node,token memory allocated
  2138 words of node memory still in use:
    11 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 338 attribute, 80 glue_sp
 ec, 338 attribute_list, 24 pdf_action nodes
-   avail lists: 1:3,2:7272,3:1369,4:369,5:23159,6:150,7:24621,8:393,9:47148,10:3
-1,11:2470
- 57225 multiletter control sequences out of 65536+600000
+   avail lists: 2:4564,3:1384,4:366,5:14264,6:137,7:23503,8:391,9:29133,10:31,11
+:1614
+ 57224 multiletter control sequences out of 65536+600000
  80 fonts using 5517839 bytes
  124i,15n,116p,553b,1406s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono9-regular.otf></usr/share/texmf
@@ -1587,10 +1592,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy9.pfb>
-Output written on euvnoise.pdf (31 pages, 465478 bytes).
+Output written on euvnoise.pdf (31 pages, 464566 bytes).
 
-PDF statistics: 1002 PDF objects out of 1200 (max. 8388607)
- 898 compressed objects within 9 object streams
- 360 named destinations out of 1000 (max. 131072)
+PDF statistics: 988 PDF objects out of 1000 (max. 8388607)
+ 884 compressed objects within 9 object streams
+ 347 named destinations out of 1000 (max. 131072)
  304 words of extra memory for PDF output out of 10000 (max. 100000000)
 
