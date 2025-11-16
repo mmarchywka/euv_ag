@@ -15,6 +15,15 @@ Masashi Ban.
 \newblock \href {https://doi.org/10.1103/physreva.49.4142}
   {\path{doi:10.1103/physreva.49.4142}}.
 
+\bibitem{Barker_Deslippe_Lischner_Spinor_math_xmlns_2022}
+Bradford~A. Barker, Jack Deslippe, Johannes Lischner, Manish Jain, Oleg~V.
+  Yazyev, David~A. Strubbe, and Steven~G. Louie.
+\newblock Fully relativistic gw/bethe-salpeter calculations in berkeleygw:
+  Implementation, symmetries, benchmarking, and performance.
+\newblock {\em Physical Review B}, 106, 09 2022.
+\newblock \href {https://doi.org/10.1103/physrevb.106.115127}
+  {\path{doi:10.1103/physrevb.106.115127}}.
+
 \bibitem{Belmonte_Cendron_Reddy_Mechanistic_insights_2020}
 Guilherme~K. Belmonte, Suelen~W. Cendron, Pulikanti~Guruprasad Reddy,
   Cleverson~A.S. Moura, Mohamad~Ghulam Moinuddin, Jerome Peter, Satinder~K.
@@ -112,6 +121,16 @@ K.~Gilmore, John Vinson, E.L. Shirley, D.~Prendergast, C.D. Pemmaraju, J.J.
 \newblock \href {https://doi.org/10.1016/j.cpc.2015.08.014}
   {\path{doi:10.1016/j.cpc.2015.08.014}}.
 
+\bibitem{Godby_Schluter_Sham_Self_energy_operators_1988}
+R.~W. Godby, M.~Schl\"{u}ter, and L.~J. Sham.
+\newblock Self-energy operators and exchange-correlation potentials in
+  semiconductors.
+\newblock {\em Physical Review B}, 37, 06 1988.
+\newblock URL:
+  \url{https://www-users.york.ac.uk/~rwg3/Papers/Paper_09%20(GSS%20big%20PRB).pdf},
+  \href {https://doi.org/10.1103/physrevb.37.10159}
+  {\path{doi:10.1103/physrevb.37.10159}}.
+
 \bibitem{Green_Jiang_Soufiani_Optical_Properties_Photovoltaic_2015}
 Martin~A. Green, Yajie Jiang, Arman~Mahboubi Soufiani, and Anita Ho-Baillie.
 \newblock Optical properties of photovoltaic organic-inorganic lead halide
@@ -131,6 +150,15 @@ Lingling Guan, Chun Cao, Xi~Liu, Qiulan Liu, Yiwei Qiu, Xiaobing Wang, Zhenyao
 \newblock URL: \url{https://www.nature.com/articles/s41467-024-46743-5}, \href
   {https://doi.org/10.1038/s41467-024-46743-5}
   {\path{doi:10.1038/s41467-024-46743-5}}.
+
+\bibitem{Hammer_Linderl_Tvingstedt_Spectroscopic_analysis_vibrational_2023}
+Sebastian Hammer, Theresa Linderl, Kristofer Tvingstedt, Wolfgang Br\"{u}tting,
+  and Jens Pflaum.
+\newblock Spectroscopic analysis of vibrational coupling in multi-molecular
+  excited states.
+\newblock {\em Materials Horizons}, 10, 01 2023.
+\newblock \href {https://doi.org/10.1039/d2mh00829g}
+  {\path{doi:10.1039/d2mh00829g}}.
 
 \bibitem{PMC11433861}
 Muhammad~Waleed Hasan, Laura Deeb, Sergei Kumaniaev, Chenglu Wei, and Kaiying
@@ -351,6 +379,14 @@ Alex Robinson.
 \newblock 08 2025.
 \newblock URL: \url{https://www.linkedin.com/in/alex-robinson-421286a/}.
 
+\bibitem{Rocca_Lu_Galli_initio_calculations_2010}
+Dario Rocca, Deyu Lu, and Giulia Galli.
+\newblock {\it Ab initio} calculations of optical absorption spectra: Solution
+  of the bethe-salpeter equation within density matrix perturbation theory.
+\newblock {\em The Journal of Chemical Physics}, 133, 10 2010.
+\newblock \href {https://doi.org/10.1063/1.3494540}
+  {\path{doi:10.1063/1.3494540}}.
+
 \bibitem{PMC10926160}
 Najmeh Sadegh, Quentin Evrard, Peter~M Kraus, and Albert~M Brouwer.
 \newblock Xuv absorption spectroscopy and photoconversion of a tin-oxo cage
@@ -379,6 +415,16 @@ Seiji Saito, Junji Endo, Tetsuji Kodama, Akira Tonomura, Akira Fukuhara, and
 \newblock {\em Physics Letters A}, 162, 03 1992.
 \newblock \href {https://doi.org/10.1016/0375-9601(92)90003-5}
   {\path{doi:10.1016/0375-9601(92)90003-5}}.
+
+\bibitem{Sakuma_Aryasetiawan_Self_energy_calculation_2012}
+R.~Sakuma and F.~Aryasetiawan.
+\newblock Self-energy calculation of the hydrogen atom: Importance of the
+  unbound states.
+\newblock {\em Physical Review A}, 85, 04 2012.
+\newblock URL:
+  \url{https://lucris.lub.lu.se/ws/portalfiles/portal/1680197/2968980.pdf},
+  \href {https://doi.org/10.1103/physreva.85.042509}
+  {\path{doi:10.1103/physreva.85.042509}}.
 
 \bibitem{Tan_Silver_Halides_Photography_1989}
 Yen~T. Tan.
@@ -423,6 +469,16 @@ J.~David {Wong-Campos} and Mackenzie {Dion}.
   {https://arxiv.org/abs/2501.18706} {\path{arXiv:2501.18706}}, \href
   {https://doi.org/10.48550/arXiv.2501.18706}
   {\path{doi:10.48550/arXiv.2501.18706}}.
+
+\bibitem{Yamagami_Takada_Strong_Electron_Correlation_1998}
+Hiroshi Yamagami and Yasutami Takada.
+\newblock Strong electron correlation in a localized state described in terms
+  of extended states: General formulation and illustration in a helium atom.
+\newblock {\em Journal of the Physical Society of Japan}, 67, 08 1998.
+\newblock URL:
+  \url{https://www.researchgate.net/profile/Yasutami-Takada/publication/243566114_Strong_Electron_Correlation_in_a_Localized_State_Described_in_Terms_of_Extended_States_General_Formulation_and_Illustration_in_a_Helium_Atom/links/544ef00a0cf29473161becb5/Strong-Electron-Correlation-in-a-Localized-State-Described-in-Terms-of-Extended-States-General-Formulation-and-Illustration-in-a-Helium-Atom.pdf},
+  \href {https://doi.org/10.1143/jpsj.67.2695}
+  {\path{doi:10.1143/jpsj.67.2695}}.
 
 \bibitem{D4TA06618A}
 Yuelin Yang, Jie Guan, Nannan Zhang, Lin Ru, Yihao Zou, and Yuanyuan Wang.
