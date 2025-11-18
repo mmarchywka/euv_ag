@@ -75,6 +75,60 @@ based on the above. No idea how or if the BerkeleyGW code
 supports or selects the continuum  and no response on 
 message board as of 2025-11-16.
 
+Wanted easy to predict code to evaluate radial wavefunction
+for free hydrogen and decide exact integral form may be 
+a good starting point although brute force evaluation is quite slow
+in current form. 
+Added code to evaluate free radial functions from an integral
+\cite{LOPEZ20101570} equation 5 that looks like it can be reduced celverly.
+Ended up with results that matches the series expansion well and appears
+to be adaptable with better integration
+\mjmeqn{  M(a,b;z) =\frac{\Gamma(b)}{\Gamma(a)\Gamma(b-a)}\int_0^1 t^{a-1}
+(1-t)^{b-a-1) exp(z t ) dt }}
+
+Substituting in the radial expressions and $t=.5+\delta $ produces
+
+\mjmeqn{  M(a,b;z) =\frac{\Gamma(b)}{\Gamma(a)\Gamma(b-a)}\int_{-.5}^ {.5}
+(\delta+.5)^l (\delta -.5)^l (\frac{\delta+.5}{\delta - .5})^{\imath/k}
+exp(2\imath k r (\delta+ .5) ) 
+d\delta }
+
+Defining
+\mjmeqn{\phi(\delta) =
+   \frac{1}{k}log\left( \frac{.5 + \delta}{.5 -\delta } \right) }
+
+
+\mjmeqn{  M(a,b;z) =\frac{\Gamma(b)}{\Gamma(a)\Gamma(b-a)}
+exp(\imath k r ) 
+\int_{-.5}^ {.5} (\delta+.5)^l (\delta -.5)^l 
+exp(2\imath k r \delta+\imath\phi  ) 
+d\delta }
+
+
+\mjmeqn{  M(a,b;z) =\frac{\Gamma(b)}{\Gamma(a)\Gamma(b-a)}
+2exp(\imath k r ) 
+\int_{0}^ {.5} (\delta+.5)^l (\delta -.5)^l 
+cos(2 k r \delta+\phi  ) 
+d\delta }
+Fixing some simple stuff, 
+\mjmeqn{  M(a,b;z) =\frac{\Gamma(b)}{\Gamma(a)\Gamma(b-a)}
+2exp(\imath k r ) 
+\int_{0}^ {.5} (\delta^2-.25)^l  cos(2 k r \delta+\phi(\delta)  ) 
+d\delta }
+
+
+For larger l this can fall off as $\delta$ goes to .5.
+At issue is how quickly  $\phi$ may vary.
+\mjmeqn{\frac{d\phi}{d\delta}= \frac{1}{k}\frac{1}{.25-\delta^2}}
+
+With Simpon's rule note that the cendered box needs to just
+be counted once....Doh!.
+Gemini didn't specialize the integrand with the prompt I gave it
+haven't tested gemini\_hypergeom3.h yet...
+
+
+
+
 
 
 \section{ Some Codes}

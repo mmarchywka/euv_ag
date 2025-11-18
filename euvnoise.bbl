@@ -265,6 +265,20 @@ Y.~J. Liou, R.~A. Hudson, S.~K. Wonnell, and L.~M. Slifkin.
 \newblock \href {https://doi.org/10.1103/physrevb.41.10481}
   {\path{doi:10.1103/physrevb.41.10481}}.
 
+\bibitem{LOPEZ20101570}
+Jos\'{e}~L. L\'{o}pez and Pedro~J. Pagola.
+\newblock The confluent hypergeometric functions m(a,b;z) and u(a,b;z) for
+  large b and z.
+\newblock {\em Journal of Computational and Applied Mathematics},
+  233(6):1570--1576, 2010.
+\newblock Special Functions, Information Theory, and Mathematical Physics.
+  Special issue dedicated to Professor Jesus Sanchez Dehesa on the occasion of
+  his 60th birthday.
+\newblock URL:
+  \url{https://www.sciencedirect.com/science/article/pii/S0377042709001630},
+  \href {https://doi.org/10.1016/j.cam.2009.02.072}
+  {\path{doi:10.1016/j.cam.2009.02.072}}.
+
 \bibitem{Luo_Deposition_characterization_patterning_2016}
 Feixiang Luo.
 \newblock Deposition, characterization, patterning and mechanistic study of

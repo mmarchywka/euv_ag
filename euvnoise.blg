@@ -47,45 +47,45 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in Chen_Chen_Chen_Kaohsiung_City_Kaohsiung_City_2025
 Warning--empty year in Denbeaux_Azhari_Ai_Understanding_onset_
 Warning--empty journal in Robinson_West_Midlands_England_United_2025
-You've used 60 entries,
+You've used 61 entries,
             2943 wiz_defined-function locations,
-            1161 strings with 28842 characters,
-and the built_in function-call counts, 31034 in all, are:
-= -- 3276
-> -- 1604
+            1171 strings with 29318 characters,
+and the built_in function-call counts, 31592 in all, are:
+= -- 3341
+> -- 1619
 < -- 5
-+ -- 595
-- -- 530
-* -- 2117
-:= -- 4571
-add.period$ -- 235
-call.type$ -- 60
-change.case$ -- 445
++ -- 603
+- -- 534
+* -- 2153
+:= -- 4646
+add.period$ -- 240
+call.type$ -- 61
+change.case$ -- 450
 chr.to.int$ -- 0
-cite$ -- 63
-duplicate$ -- 734
-empty$ -- 2380
-format.name$ -- 530
-if$ -- 7731
+cite$ -- 64
+duplicate$ -- 747
+empty$ -- 2433
+format.name$ -- 534
+if$ -- 7876
 int.to.chr$ -- 0
-int.to.str$ -- 60
-missing$ -- 52
-newline$ -- 357
-num.names$ -- 120
-pop$ -- 697
+int.to.str$ -- 61
+missing$ -- 53
+newline$ -- 364
+num.names$ -- 122
+pop$ -- 705
 preamble$ -- 1
-purify$ -- 385
+purify$ -- 389
 quote$ -- 0
-skip$ -- 2126
+skip$ -- 2163
 stack$ -- 0
-substring$ -- 738
-swap$ -- 278
-text.length$ -- 121
+substring$ -- 775
+swap$ -- 281
+text.length$ -- 125
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 240
+type$ -- 244
 warning$ -- 3
-while$ -- 136
-width$ -- 62
-write$ -- 782
+while$ -- 139
+width$ -- 63
+write$ -- 798
 (There were 3 error messages)
