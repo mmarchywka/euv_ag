@@ -19,21 +19,21 @@
 \contentsline {subsection}{\numberline {IV.1}Notable featues Silver Halides}{22}{section*.17}%
 \contentsline {subsection}{\numberline {IV.2}Silver Bromide solid}{23}{section*.18}%
 \contentsline {section}{\numberline {V}X-ray detectors }{23}{section*.19}%
-\contentsline {section}{\numberline {VI} Some Codes}{24}{section*.20}%
-\contentsline {subsection}{\numberline {VI.1}sulfur}{24}{section*.21}%
-\contentsline {subsection}{\numberline {VI.2}Non-local : grad, erode, dilate, etc }{24}{section*.22}%
-\contentsline {subsection}{\numberline {VI.3}"Move Towards the Light" the EUV Litho Near Death Experience}{24}{section*.23}%
-\contentsline {section}{\numberline {VII}Early Events and Ultimate Fate }{25}{section*.24}%
-\contentsline {section}{\numberline {VIII}Conclusions}{26}{section*.25}%
-\contentsline {section}{\numberline {IX}Supplemental Information}{26}{section*.26}%
-\contentsline {subsection}{\numberline {IX.1}Computer Code}{26}{section*.27}%
-\contentsline {section}{\numberline {X}Bibliography}{26}{section*.28}%
-\contentsline {section}{\numberline {}References}{26}{section*.29}%
-\contentsline {section}{\numberline {}Acknowledgments}{29}{section*.30}%
+\contentsline {section}{\numberline {VI} Some Codes}{25}{section*.20}%
+\contentsline {subsection}{\numberline {VI.1}sulfur}{25}{section*.21}%
+\contentsline {subsection}{\numberline {VI.2}Non-local : grad, erode, dilate, etc }{26}{section*.22}%
+\contentsline {subsection}{\numberline {VI.3}"Move Towards the Light" the EUV Litho Near Death Experience}{26}{section*.23}%
+\contentsline {section}{\numberline {VII}Early Events and Ultimate Fate }{26}{section*.24}%
+\contentsline {section}{\numberline {VIII}Conclusions}{27}{section*.25}%
+\contentsline {section}{\numberline {IX}Supplemental Information}{27}{section*.26}%
+\contentsline {subsection}{\numberline {IX.1}Computer Code}{27}{section*.27}%
+\contentsline {section}{\numberline {X}Bibliography}{27}{section*.28}%
+\contentsline {section}{\numberline {}References}{27}{section*.29}%
+\contentsline {section}{\numberline {}Acknowledgments}{30}{section*.30}%
 \appendix 
-\contentsline {section}{\numberline {A} Statement of Conflicts }{30}{section*.31}%
-\contentsline {section}{\numberline {B}About the Authors and Facility}{30}{section*.32}%
-\contentsline {section}{\numberline {C} Some Math Stuff }{30}{section*.33}%
-\contentsline {section}{\numberline {D}Symbols, Abbreviations and Colloquialisms}{30}{section*.34}%
-\contentsline {section}{\numberline {E}General caveats and disclaimer }{30}{section*.35}%
-\contentsline {section}{\numberline {F}Citing this as a tech report or white paper }{31}{section*.36}%
+\contentsline {section}{\numberline {A} Statement of Conflicts }{31}{section*.31}%
+\contentsline {section}{\numberline {B}About the Authors and Facility}{31}{section*.32}%
+\contentsline {section}{\numberline {C} Some Math Stuff }{31}{section*.33}%
+\contentsline {section}{\numberline {D}Symbols, Abbreviations and Colloquialisms}{31}{section*.34}%
+\contentsline {section}{\numberline {E}General caveats and disclaimer }{31}{section*.35}%
+\contentsline {section}{\numberline {F}Citing this as a tech report or white paper }{32}{section*.36}%

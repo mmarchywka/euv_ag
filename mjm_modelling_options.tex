@@ -84,12 +84,21 @@ Added code to evaluate free radial functions from an integral
 Ended up with results that matches the series expansion well and appears
 to be adaptable with better integration
 \mjmeqn{  M(a,b;z) =\frac{\Gamma(b)}{\Gamma(a)\Gamma(b-a)}\int_0^1 t^{a-1}
-(1-t)^{b-a-1) exp(z t ) dt }}
+(1-t)^{b-a-1)} exp(z t ) dt }
 
-Substituting in the radial expressions and $t=.5+\delta $ produces
+Eventually the hope is to integrate an initial state over the continuum
+of final states to arrive at a total absorption cross section so its
+possible that a form like this maybe helpful later. 
+Substituting in the radial expressions
+and later the normalization from 
+\cite{Sakuma_Aryasetiawan_Self_energy_calculation_2012}
+eqn's 3 and 4,
+
+\mjmeqn{ a=\frac{\imath}{k} + l +1 ; b=2(l+1); z=2\imath k r } 
+ and $t=.5+\delta $ produces
 
 \mjmeqn{  M(a,b;z) =\frac{\Gamma(b)}{\Gamma(a)\Gamma(b-a)}\int_{-.5}^ {.5}
-(\delta+.5)^l (\delta -.5)^l (\frac{\delta+.5}{\delta - .5})^{\imath/k}
+(\delta+.5)^l (\delta -.5)^l (\frac{.5+\delta}{.5-\delta })^{\imath/k}
 exp(2\imath k r (\delta+ .5) ) 
 d\delta }
 
@@ -100,32 +109,96 @@ Defining
 
 \mjmeqn{  M(a,b;z) =\frac{\Gamma(b)}{\Gamma(a)\Gamma(b-a)}
 exp(\imath k r ) 
-\int_{-.5}^ {.5} (\delta+.5)^l (\delta -.5)^l 
+\int_{-.5}^ {.5} (\delta+.5)^l (.5-\delta )^l 
 exp(2\imath k r \delta+\imath\phi  ) 
 d\delta }
 
 
 \mjmeqn{  M(a,b;z) =\frac{\Gamma(b)}{\Gamma(a)\Gamma(b-a)}
 2exp(\imath k r ) 
-\int_{0}^ {.5} (\delta+.5)^l (\delta -.5)^l 
+\int_{0}^ {.5} (\delta+.5)^l (.5-\delta )^l 
 cos(2 k r \delta+\phi  ) 
 d\delta }
+
 Fixing some simple stuff, 
-\mjmeqn{  M(a,b;z) =\frac{\Gamma(b)}{\Gamma(a)\Gamma(b-a)}
+\mjmeqn{  M(a,b;z) =\frac{\Gamma(2(l+1))}{\Gamma(\frac{\imath}{k}+l+1)
+\Gamma((l+1)-\frac{\imath}{k})}
 2exp(\imath k r ) 
-\int_{0}^ {.5} (\delta^2-.25)^l  cos(2 k r \delta+\phi(\delta)  ) 
+\int_{0}^ {.5} (.25-\delta^2)^l  cos(2 k r \delta+\phi(\delta)  ) 
 d\delta }
 
 
 For larger l this can fall off as $\delta$ goes to .5.
 At issue is how quickly  $\phi$ may vary.
-\mjmeqn{\frac{d\phi}{d\delta}= \frac{1}{k}\frac{1}{.25-\delta^2}}
+\mjmeqn{
+\frac{d\phi}{d\delta}= \frac{1}{k}\frac{1}{.25-\delta^2}
+;
+\frac{d^2\phi}{d\delta^2}= \frac{1}{k}\frac{2\delta}{(.25-\delta^2)^2}
+}
+The local frequency is 
+\mjmeqn{ \omega_{local} = 2k r +  \frac{1}{k}\frac{1}{.25-\delta^2}}
+and over lengths scaled by the second derivative, it can be integrated
+analytically,
+
+
 
 With Simpon's rule note that the cendered box needs to just
 be counted once....Doh!.
 Gemini didn't specialize the integrand with the prompt I gave it
 haven't tested gemini\_hypergeom3.h yet...
 
+\newcommand{\mjmisym}{I}
+
+First get rid of prefactor,
+\mjmeqn{  \mjmisym = \int_{0}^ {.5} (\delta+.5)^l (.5-\delta )^l 
+cos(2 k r \delta+\phi  ) 
+d\delta }
+
+The problem is the oscillatory integral as delta goes to .5.
+Define
+\mjmeqn{ e^x= .5 -\delta; \delta=.5 - e^x }
+then 
+\mjmeqn{  \mjmisym = -  \int_{-ln(2)}^ {-\infty} (1-e^x)^l (e^x )^l 
+cos(2 k r \delta+\phi  ) 
+e^x dx }
+
+and 
+
+\mjmeqn{\phi=
+   \frac{1}{k}log\left( \frac{1-e^x}{e^x } \right) }
+which can now be removed,
+
+\mjmeqn{  \mjmisym = -  \int_{-ln(2)}^ {-\infty} (1-e^x)^l (e^x )^l 
+cos(2 k r(.5- e^x)  +\frac{1}{k}log(1-e^x) - \frac{x}{k}  ) 
+e^x dx }
+
+There seem to be a lot of negative signs but is less cluttered
+than putting it in exponent. The integrand decays exponentially
+to zero as upper limit is approached allowing for hopefully easy
+convergence  even as the cos oscilates at 1/k.  
+
+\mjmpicture{exphyper.jpg}{ The earlier series against the expoential with differing integration step sizes in green and red}{exphyper}
+\begin{lstlisting}
+
+
+ 2404  ./mjm_1f1_hypergeom.out  "setkl 1 2" "plot .1 28 100 color=white;which=1;ndel=4000" quit 2>&1 
+ 2405  ./mjm_1f1_hypergeom.out  "setkl 1 2" "plot .1 28 100 color=green;which=4;ndel=4000" quit 2>&1 
+ 2406  vi mjm_1f1_hypergeom.h 
+ 2407  . quickg++ -last
+ 2408  ./mjm_1f1_hypergeom.out  "setkl 1 2" "plot .1 28 100 color=red;which=4;ndel=4000" quit 2>&1 
+
+
+\end{lstlisting}
+
+
+
+\mjmtolx{ not right 
+The problem is in the upper limit as phi goes to infinity.
+Try repeated integration by part with $s=\delta -.5 $,
+\mjmeqn{  \mjmisym 
+  = \int_{0}^ {.5} (s)^l (s-1)^l cos(2 k r \delta+\phi  ) 
+d\delta }
+}
 
 
 
