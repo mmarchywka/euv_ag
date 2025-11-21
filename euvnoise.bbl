@@ -169,6 +169,25 @@ Muhammad~Waleed Hasan, Laura Deeb, Sergei Kumaniaev, Chenglu Wei, and Kaiying
 \newblock URL: \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC11433861/}, \href
   {https://doi.org/10.3390/mi15091122} {\path{doi:10.3390/mi15091122}}.
 
+\bibitem{Hofierka_Rawlins_Cunningham_Many_body_theory_calculations_2023}
+J.~Hofierka, C.~M. Rawlins, B.~Cunningham, D.~T. Waide, and D.~G. Green.
+\newblock Many-body theory calculations of positron scattering and annihilation
+  in noble-gas atoms via the solution of bethe-salpeter equations using the
+  gaussian-basis code exciton+.
+\newblock {\em Frontiers in Physics}, 11, 09 2023.
+\newblock \href {https://doi.org/10.3389/fphy.2023.1227652}
+  {\path{doi:10.3389/fphy.2023.1227652}}.
+
+\bibitem{Hung_daJornada_SoutoCasares_Excitation_spectra_aromatic_2016}
+Linda Hung, Felipe~H. da~Jornada, Jaime Souto-Casares, James~R. Chelikowsky,
+  Steven~G. Louie, and Serdar~\"{O}Ux011f[bad char vv=287]\"{u}t.
+\newblock Excitation spectra of aromatic molecules within a real-space<mml:math
+  xmlns:mml=http://www.w3.org/1998/math/mathml><mml:mrow><mml:mi>g</mml:mi><mml:mi>w</mml:mi></mml:mrow></mml:math>-bse
+  formalism: Role of self-consistency and vertex corrections.
+\newblock {\em Physical Review B}, 94, 08 2016.
+\newblock \href {https://doi.org/10.1103/physrevb.94.085125}
+  {\path{doi:10.1103/physrevb.94.085125}}.
+
 \bibitem{Ito_Chemical_Amplification_Resists_2005}
 Hiroshi Ito.
 \newblock Chemical amplification resists for microlithography, 02 2005.

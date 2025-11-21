@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {IV.2}Silver Bromide solid}{23}{section*.18}%
 \contentsline {section}{\numberline {V}X-ray detectors }{23}{section*.19}%
 \contentsline {section}{\numberline {VI} Some Codes}{25}{section*.20}%
-\contentsline {subsection}{\numberline {VI.1}sulfur}{25}{section*.21}%
+\contentsline {subsection}{\numberline {VI.1}sulfur}{26}{section*.21}%
 \contentsline {subsection}{\numberline {VI.2}Non-local : grad, erode, dilate, etc }{26}{section*.22}%
 \contentsline {subsection}{\numberline {VI.3}"Move Towards the Light" the EUV Litho Near Death Experience}{26}{section*.23}%
 \contentsline {section}{\numberline {VII}Early Events and Ultimate Fate }{26}{section*.24}%

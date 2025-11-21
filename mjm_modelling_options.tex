@@ -61,6 +61,13 @@ empty states with both an infinite number of
 bound and free states. 
 The bounds states are indexed with various quantum numbers but the
 free states form a continuum. 
+They are mentioned in passing in some GW/BSE papers
+\cite{Hung_daJornada_SoutoCasares_Excitation_spectra_aromatic_2016}
+
+or implemented in various approximations
+\cite{Hofierka_Rawlins_Cunningham_Many_body_theory_calculations_2023}
+
+
 This apparently was first explored for hydrogen
 in 2012 
 \cite{Sakuma_Aryasetiawan_Self_energy_calculation_2012}
@@ -113,19 +120,23 @@ exp(\imath k r )
 exp(2\imath k r \delta+\imath\phi  ) 
 d\delta }
 
-
+ This is complex conjugate on other half but needs care as with
+FFT at the center where $\delta=0 $  ,
+\mjmtol{ was just cutting first simpson box in half lol. Something dumb in notation here, should figure it out :)  }
 \mjmeqn{  M(a,b;z) =\frac{\Gamma(b)}{\Gamma(a)\Gamma(b-a)}
-2exp(\imath k r ) 
+2exp(\imath k r ) \left(
 \int_{0}^ {.5} (\delta+.5)^l (.5-\delta )^l 
-cos(2 k r \delta+\phi  ) 
-d\delta }
+cos(2 k r \delta+\phi  )  
+d\delta +   F_0 \right)  }
+
+\mjmeqn{ F_0 =\int -.25(.5)^{2l}\delta(\delta==0) d\delta   }
 
 Fixing some simple stuff, 
 \mjmeqn{  M(a,b;z) =\frac{\Gamma(2(l+1))}{\Gamma(\frac{\imath}{k}+l+1)
 \Gamma((l+1)-\frac{\imath}{k})}
 2exp(\imath k r ) 
-\int_{0}^ {.5} (.25-\delta^2)^l  cos(2 k r \delta+\phi(\delta)  ) 
-d\delta }
+\left(\int_{0}^ {.5} (.25-\delta^2)^l  cos(2 k r \delta+\phi(\delta)  ) 
+d\delta + F_0 \right) }
 
 
 For larger l this can fall off as $\delta$ goes to .5.
@@ -152,7 +163,7 @@ haven't tested gemini\_hypergeom3.h yet...
 First get rid of prefactor,
 \mjmeqn{  \mjmisym = \int_{0}^ {.5} (\delta+.5)^l (.5-\delta )^l 
 cos(2 k r \delta+\phi  ) 
-d\delta }
+d\delta +F_0 }
 
 The problem is the oscillatory integral as delta goes to .5.
 Define
@@ -160,7 +171,7 @@ Define
 then 
 \mjmeqn{  \mjmisym = -  \int_{-ln(2)}^ {-\infty} (1-e^x)^l (e^x )^l 
 cos(2 k r \delta+\phi  ) 
-e^x dx }
+e^x dx + F_0  }
 
 and 
 
@@ -170,7 +181,7 @@ which can now be removed,
 
 \mjmeqn{  \mjmisym = -  \int_{-ln(2)}^ {-\infty} (1-e^x)^l (e^x )^l 
 cos(2 k r(.5- e^x)  +\frac{1}{k}log(1-e^x) - \frac{x}{k}  ) 
-e^x dx }
+e^x dx + F_0  }
 
 There seem to be a lot of negative signs but is less cluttered
 than putting it in exponent. The integrand decays exponentially
