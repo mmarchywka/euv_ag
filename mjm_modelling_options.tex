@@ -1,5 +1,15 @@
 
-
+One survey of modelling techniques from 2021 describes most
+of the available techniques  \cite{Tirimbo_Baumeier_initio_modeling_2021}.
+Some "0-0" predictions were made for several small molecules with
+a variety of methods including the GW-BSE approach including 
+scatterplots of prediction and experimental values 
+\cite{Jacquemin_Duchemin_Blase_Energies_Using_2015}.
+Another survey compares methods and their suitability for 
+understanding organic LED's \cite{Chaudhuri_Patterson_TDDFT_versus_2022}.
+Note that many of these concentrate in the low energy parts
+of the light spectrum well under 10 eV except for the soft
+X-ray works. 
 
 
 Initial discussion on JDFTX issue forum suggested looking at 
@@ -211,8 +221,16 @@ Try repeated integration by part with $s=\delta -.5 $,
 d\delta }
 }
 
+The complete radial wavefunction then , equation 3 and 4 from
+\cite{Sakuma_Aryasetiawan_Self_energy_calculation_2012}
 
+is 
 
+\mjmeqn{ \psi(r) = c(k,l) \frac{(2kr)^l }{(2l+1)!} \frac{\Gamma(2(l+1))}
+{\Gamma((l+1)+\frac{1}{k})\Gamma((l+1)-\frac{1}{k})}2 I(k,l, r) }
+with
+\mjmeqn{c(k,l) =  \sqrt{\frac{8\pi k }{1-exp(-2\pi/k)}}\prod_{p=1}^{l}
+\sqrt{p^2+ \frac{1}{k^2}}}
 
 
 \section{ Some Codes}

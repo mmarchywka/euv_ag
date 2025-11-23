@@ -64,6 +64,14 @@ Marcos Casanova-P\'{a}ez and Frank Neese.
   {https://doi.org/10.1021/acs.jctc.4c01181}
   {\path{doi:10.1021/acs.jctc.4c01181}}.
 
+\bibitem{Chaudhuri_Patterson_TDDFT_versus_2022}
+D.~Chaudhuri and C.~H. Patterson.
+\newblock Tddft versus {\it gw}/bse methods for prediction of light absorption
+  and emission in a tadf emitter.
+\newblock {\em The Journal of Physical Chemistry A}, 126, 12 2022.
+\newblock \href {https://doi.org/10.1021/acs.jpca.2c06403}
+  {\path{doi:10.1021/acs.jpca.2c06403}}.
+
 \bibitem{Chen_Chen_Chen_Kaohsiung_City_Kaohsiung_City_2025}
 Frederick Chen.
 \newblock Frederick chen linkedin profile.
@@ -192,6 +200,14 @@ Linda Hung, Felipe~H. da~Jornada, Jaime Souto-Casares, James~R. Chelikowsky,
 Hiroshi Ito.
 \newblock Chemical amplification resists for microlithography, 02 2005.
 \newblock \href {https://doi.org/10.1007/b97574} {\path{doi:10.1007/b97574}}.
+
+\bibitem{Jacquemin_Duchemin_Blase_Energies_Using_2015}
+Denis Jacquemin, Ivan Duchemin, and Xavier Blase.
+\newblock 0-0 energies using hybrid schemes: Benchmarks of td-dft, cis(d),
+  adc(2), cc2, and bse/{\it gw} formalisms for 80 real-life compounds.
+\newblock {\em Journal of Chemical Theory and Computation}, 11, 11 2015.
+\newblock \href {https://doi.org/10.1021/acs.jctc.5b00619}
+  {\path{doi:10.1021/acs.jctc.5b00619}}.
 
 \bibitem{OswaldHWSiegmundfirstMarkAGummin_title_Progress_1996}
 Sharon~R. Jelinsky, Oswald H.~W. Siegmund, and Jamil~A. Mir.
@@ -472,6 +488,14 @@ Malvin~C. Teich and Bahaa~E.A. Saleh.
 \newblock URL: \url{https://libop-nifs.nifs.ac.jp/pdf/10117778.pdf}, \href
   {https://doi.org/10.1016/s0079-6638(08)70174-4}
   {\path{doi:10.1016/s0079-6638(08)70174-4}}.
+
+\bibitem{Tirimbo_Baumeier_initio_modeling_2021}
+Gianluca Tirimb\`{o} and Bj\"{o}rn Baumeier.
+\newblock Ab initio modeling of excitons: from perfect crystals to
+  biomaterials.
+\newblock {\em Advances in Physics: X}, 6, 01 2021.
+\newblock \href {https://doi.org/10.1080/23746149.2021.1912638}
+  {\path{doi:10.1080/23746149.2021.1912638}}.
 
 \bibitem{doi:10.1021/acsaom.4c00265}
 Donato Valli, Heng Zhang, Mari\'{a}n BetuUx0161[bad~char vv=353]iak, Giacomo
