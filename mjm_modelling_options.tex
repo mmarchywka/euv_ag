@@ -212,6 +212,38 @@ convergence  even as the cos oscilates at 1/k.
 \end{lstlisting}
 
 
+Regardless of parameters the above has a problem with larger kR and l around
+10 or so. One concern is the middle point and use of the apparent symmetry.
+
+Going back and using 
+\mjmeqn{ a=\frac{\imath}{k} + l +1 ; b=2(l+1); z=2\imath k r } 
+ again gives (" eqn:mft" ) ,
+
+\mjmeqn{  I2(k,l;r)  =\int_0^1 t^{a-1}
+(1-t)^{b-a-1)} exp(z t ) dt \label{eqn:mft} }
+
+\mjmeqn{  I2(k,l;r)  =\int_0^1 t^{\frac{imath}{k}+l}
+(1-t)^{l-\frac{\imath}{k}} exp(2 \imath k r  t ) dt \label{eqn:mflkr} }
+
+
+\mjmeqn{  I2(k,l;r)  =\int_0^1  (t(1-t))^l( \frac{t}{1-t})^{\frac{\imath}{k}}
+ exp(2 \imath k r  t ) dt \label{eqn:mflkrang} }
+
+\mjmeqn{  I2(k,l;r)  =\int_0^1  
+(t(1-t))^l  exp(2\imath k r t +\frac{\imath}{k} log(\frac{t}{1-t})  ) dt 
+\label{eqn:mflkrangii} }
+
+as before let $t=exp(x) $,(eqn:mkflrexp),
+
+\mjmeqn{  I2(k,l;r)  =\int_{-\infty} ^0  
+(e^x(1-e^x))^l exp(2\imath kr e^x +\frac{\imath}{k}(x-log({1-e^x})))e^x dx 
+\label{eqn:mflkrexp} }
+the integrand is zero at the limits  except for l equal zero.  
+
+and 
+\mjmeqn{ I =I2* 2 exp(\imath k r ) } 
+
+
 
 \mjmtolx{ not right 
 The problem is in the upper limit as phi goes to infinity.
@@ -258,5 +290,38 @@ much classibal basic QM some code available
 \cite{Hammer_Linderl_Tvingstedt_Spectroscopic_analysis_vibrational_2023}
 
 
+
+\subsection{Related photo ionization work }
+In most photoresist systems the initial interaction between the
+EUV light and the material is not fully understood yet many
+possibilities exist. 
+Most data appears to exist on either side of the 100 eV range
+of immediate interest. On the high side or soft X-ray photoionization
+work has been performed no many simple systems such as atoms or ions.
+
+A photoionization spectrum has been considered for neon in the 900 eV
+range
+\cite{Muller_Bernhardt_Borovik_Photoionization_Atoms_}
+.
+Autoionization of Be has been explored in the 10-13 eV range
+\cite{Wehlitz_charvv263_Bluett_Resonance_parameters_autoionizing_2003} 
+
+
+Calculation of Auger decay appears to remain an open issue and so should
+be expolred to understand EUV resits. One effort from 2021 ends with
+equation of motion but goes through the important steps
+
+\cite{Skomorowski_Krylov_Feshbach_Fano_approach_2021}
+.
+ZZ
+
+i
+Its interesting to compare the photoelectron spectrum in a photoresist
+such as figure 3a 
+\cite{DouglasGuerreroadditionalGillesRAmblard_Dissociative_photoionization_2023}
+with the totally unrelated figure 5 showing electron kinetic energy
+from ozone in the 500eV region 
+\cite{Taioli_Simonucci_Resonant_Normal_2021}.
+Obviously the details vary but the shapes are quite suggestive.
 
 

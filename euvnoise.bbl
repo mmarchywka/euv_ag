@@ -120,6 +120,14 @@ Hiroshi Fukuda.
 \newblock \href {https://doi.org/10.1063/5.0254984}
   {\path{doi:10.1063/5.0254984}}.
 
+\bibitem{DouglasGuerreroadditionalGillesRAmblard_Dissociative_photoionization_2023}
+Marziogiuseppe Gentile, Marius Gerlach, Robert Richter, Michiel~J. van Setten,
+  John~S. Petersen, Paul A.~W. van~der Heide, and Fabian Holzmeier.
+\newblock Dissociative photoionization of euv lithography photoresist models,
+  05 2023.
+\newblock \href {https://doi.org/10.1117/12.2657702}
+  {\path{doi:10.1117/12.2657702}}.
+
 \bibitem{Gilmore_Vinson_Shirley_Efficient_implementation_core_2015}
 K.~Gilmore, John Vinson, E.L. Shirley, D.~Prendergast, C.D. Pemmaraju, J.J.
   Kas, F.D. Vila, and J.J. Rehr.
@@ -375,6 +383,18 @@ Torsha Moitra, Sonia Coriani, and Piero Decleva.
   {https://doi.org/10.1021/acs.jctc.1c00303}
   {\path{doi:10.1021/acs.jctc.1c00303}}.
 
+\bibitem{Muller_Bernhardt_Borovik_Photoionization_Atoms_}
+Alfred M\"{u}ller, Dietrich Bernhardt, Alexander Borovik, Ticia Buhr, Jonas
+  Hellhund, Kristof Holste, A.~L. David~Kilcoyne, Stephan Klumpp, Michael
+  Martins, Sandor Ricz, J\"{o}rn Seltmann, Jens Viefhaus, and Stefan Schippers.
+\newblock Photoionization of ne atoms and {Ne}$^{\textrm{+}}$ ions near the k
+  edge: Precisionspectroscopy and absolute cross-sections.
+\newblock {\em The Astrophysical Journal}, 836.
+\newblock URL:
+  \url{https://iopscience.iop.org/article/10.3847/1538-4357/836/2/166/pdf},
+  \href {https://doi.org/10.3847/1538-4357/836/2/166}
+  {\path{doi:10.3847/1538-4357/836/2/166}}.
+
 \bibitem{Newman_Frank_Matlack_ionic_hall_effect_1977}
 David~S. Newman, Curt Frank, Richard~W. Matlack, Sally Twining, and Vimela
   Krishnan.
@@ -475,6 +495,22 @@ R.~Sakuma and F.~Aryasetiawan.
   \href {https://doi.org/10.1103/physreva.85.042509}
   {\path{doi:10.1103/physreva.85.042509}}.
 
+\bibitem{Skomorowski_Krylov_Feshbach_Fano_approach_2021}
+Wojciech Skomorowski and Anna~I. Krylov.
+\newblock Feshbach-fano approach for calculation of auger decay rates using
+  equation-of-motion coupled-cluster wave functions. i. theory and
+  implementation.
+\newblock {\em The Journal of Chemical Physics}, 154, 02 2021.
+\newblock \href {https://doi.org/10.1063/5.0036976}
+  {\path{doi:10.1063/5.0036976}}.
+
+\bibitem{Taioli_Simonucci_Resonant_Normal_2021}
+Simone Taioli and Stefano Simonucci.
+\newblock The resonant and normal auger spectra of ozone.
+\newblock {\em Symmetry}, 13, 03 2021.
+\newblock \href {https://doi.org/10.3390/sym13030516}
+  {\path{doi:10.3390/sym13030516}}.
+
 \bibitem{Tan_Silver_Halides_Photography_1989}
 Yen~T. Tan.
 \newblock Silver halides in photography.
@@ -517,6 +553,18 @@ Yannick Vesters, Jing Jiang, Hiroki Yamamoto, Danilo~De Simone, Takahiro
 \newblock {\em Journal of Micro/Nanolithography, MEMS, and MOEMS}, 17, 12 2018.
 \newblock \href {https://doi.org/10.1117/1.jmm.17.4.043506}
   {\path{doi:10.1117/1.jmm.17.4.043506}}.
+
+\bibitem{Wehlitz_charvv263_Bluett_Resonance_parameters_autoionizing_2003}
+R.~Wehlitz, D.~LukiUx0107[bad char vv=263], and J.~B. Bluett.
+\newblock Resonance parameters of autoionizing be<mml:math
+  xmlns:mml=http://www.w3.org/1998/math/mathml
+  display=inline><mml:mn>2</mml:mn><mml:mi>p</mml:mi><mml:mi>n</mml:mi><mml:mi
+  mathvariant=script>l</mml:mi></mml:math>states.
+\newblock {\em Physical Review A}, 68, 11 2003.
+\newblock URL:
+  \url{https://www.researchgate.net/profile/Dragan-Lukic-2/publication/235465537_Resonance_Parameters_of_Autoionizing_Be_2pnl_States/links/0046353a00a1352ed3000000/Resonance-Parameters-of-Autoionizing-Be-2pnl-States.pdf},
+  \href {https://doi.org/10.1103/physreva.68.052708}
+  {\path{doi:10.1103/physreva.68.052708}}.
 
 \bibitem{2025arXiv250118706W}
 J.~David {Wong-Campos} and Mackenzie {Dion}.

@@ -33,6 +33,8 @@ I was expecting an "="---line 2900 of file euvnoise.bib
  : url 
  :     a= {https://doi.org/10.1063/1.2644437},
 I'm skipping whatever remains of this entry
+Warning--entry type for "DouglasGuerreroadditionalGillesRAmblard_Dissociative_photoionization_2023" isn't style-file defined
+--line 4045 of file euvnoise.bib
 Database file #3: mjm_tr.bib
 Database file #4: releases.bib
 Database file #5: ../copper/copper.bib
@@ -46,46 +48,47 @@ I'm skipping whatever remains of this entry
 I'm skipping whatever remains of this entry
 Warning--empty journal in Chen_Chen_Chen_Kaohsiung_City_Kaohsiung_City_2025
 Warning--empty year in Denbeaux_Azhari_Ai_Understanding_onset_
+Warning--empty year in Muller_Bernhardt_Borovik_Photoionization_Atoms_
 Warning--empty journal in Robinson_West_Midlands_England_United_2025
-You've used 66 entries,
+You've used 71 entries,
             2943 wiz_defined-function locations,
-            1207 strings with 31342 characters,
-and the built_in function-call counts, 33850 in all, are:
-= -- 3582
-> -- 1734
+            1245 strings with 33640 characters,
+and the built_in function-call counts, 36419 in all, are:
+= -- 3842
+> -- 1893
 < -- 5
-+ -- 644
-- -- 570
-* -- 2298
-:= -- 4989
-add.period$ -- 260
-call.type$ -- 66
-change.case$ -- 483
++ -- 704
+- -- 624
+* -- 2484
+:= -- 5380
+add.period$ -- 279
+call.type$ -- 71
+change.case$ -- 525
 chr.to.int$ -- 0
-cite$ -- 69
-duplicate$ -- 797
-empty$ -- 2603
-format.name$ -- 570
-if$ -- 8441
+cite$ -- 75
+duplicate$ -- 848
+empty$ -- 2787
+format.name$ -- 624
+if$ -- 9064
 int.to.chr$ -- 0
-int.to.str$ -- 66
-missing$ -- 58
-newline$ -- 394
-num.names$ -- 132
-pop$ -- 748
+int.to.str$ -- 71
+missing$ -- 62
+newline$ -- 423
+num.names$ -- 142
+pop$ -- 813
 preamble$ -- 1
-purify$ -- 417
+purify$ -- 454
 quote$ -- 0
-skip$ -- 2335
+skip$ -- 2500
 stack$ -- 0
-substring$ -- 810
-swap$ -- 296
-text.length$ -- 135
+substring$ -- 846
+swap$ -- 311
+text.length$ -- 145
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 264
-warning$ -- 3
-while$ -- 149
-width$ -- 68
-write$ -- 863
+type$ -- 284
+warning$ -- 4
+while$ -- 159
+width$ -- 73
+write$ -- 926
 (There were 3 error messages)
