@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2025.7.10)  28 NOV 2025 19:32
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2025.7.10)  6 FEB 2026 11:17
  restricted system commands enabled.
  file:line:error style messages enabled.
 **euvnoise.tex
@@ -1266,8 +1266,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write7
 
 \openout7 = euvnoise.toc
- [2]
-(./mjm_poisson_stuff.tex [3]
+ [2] (./mjm_squaring.tex [3]) (./mjm_poisson_stuff.tex
 Overfull \hbox (23.45999pt too wide) in paragraph at lines 35--35
 [][] 
  []
@@ -1283,20 +1282,20 @@ Overfull \hbox (23.45999pt too wide) in paragraph at lines 495--495
  []
 
 (./mjm_poi_vals.tex [5])
-<keep/plotsome2.png, id=285, 903.375pt x 602.25pt>
+<keep/plotsome2.png, id=307, 903.375pt x 602.25pt>
 File: keep/plotsome2.png Graphic file (type png)
 <use keep/plotsome2.png>
 Package luatex.def Info: keep/plotsome2.png  used on input line 500.
 (luatex.def)             Requested size: 289.0859pt x 216.80983pt.
  [6]
-<keep/plotsome.png, id=294, 777.90625pt x 602.25pt>
+<keep/plotsome.png, id=316, 777.90625pt x 602.25pt>
 File: keep/plotsome.png Graphic file (type png)
 <use keep/plotsome.png>
 Package luatex.def Info: keep/plotsome.png  used on input line 503.
 (luatex.def)             Requested size: 289.09088pt x 216.80983pt.
  (./mjm_euv_multi.tex [7<./keep/plotsome2.png><./keep/plotsome.png>] Excluding 
 'comment' comment.
-<keep/plotleak.png, id=309, 903.375pt x 602.25pt>
+<keep/plotleak.png, id=332, 903.375pt x 602.25pt>
 File: keep/plotleak.png Graphic file (type png)
 <use keep/plotleak.png>
 Package luatex.def Info: keep/plotleak.png  used on input line 117.
@@ -1348,12 +1347,12 @@ Overfull \hbox (23.45999pt too wide) in paragraph at lines 317--317
 [][] 
  []
 
-<keep/plotsimu.png, id=470, 903.375pt x 602.25pt>
+<keep/plotsimu.png, id=492, 903.375pt x 602.25pt>
 File: keep/plotsimu.png Graphic file (type png)
 <use keep/plotsimu.png>
 Package luatex.def Info: keep/plotsimu.png  used on input line 325.
 (luatex.def)             Requested size: 289.0859pt x 216.80983pt.
-<keep/pyramid_bad.png, id=472, 903.375pt x 602.25pt>
+<keep/pyramid_bad.png, id=494, 903.375pt x 602.25pt>
 File: keep/pyramid_bad.png Graphic file (type png)
 <use keep/pyramid_bad.png>
 Package luatex.def Info: keep/pyramid_bad.png  used on input line 380.
@@ -1365,7 +1364,7 @@ Overfull \hbox (23.45999pt too wide) in paragraph at lines 78--78
  []
 
 [19] [20]
-<keep/quench.jpg, id=534, 1476.51625pt x 873.2625pt>
+<keep/quench.jpg, id=556, 1476.51625pt x 873.2625pt>
 File: keep/quench.jpg Graphic file (type jpg)
 <use keep/quench.jpg>
 Package luatex.def Info: keep/quench.jpg  used on input line 180.
@@ -1386,181 +1385,181 @@ Overfull \hbox (23.45999pt too wide) in paragraph at lines 135--135
  []
 
 [24]
-<keep/exphyper.jpg, id=634, 903.375pt x 601.24625pt>
+<keep/exphyper.jpg, id=656, 903.375pt x 601.24625pt>
 File: keep/exphyper.jpg Graphic file (type jpg)
 <use keep/exphyper.jpg>
 Package luatex.def Info: keep/exphyper.jpg  used on input line 201.
 (luatex.def)             Requested size: 289.0859pt x 216.80627pt.
- [25<./keep/exphyper.jpg>]) (./mjm_ag_litho.tex [26]) (./mjm_init_euv.tex
+ [25<./keep/exphyper.jpg>] [26]) (./mjm_ag_litho.tex) (./mjm_init_euv.tex
 [27]
 Overfull \hbox (23.45999pt too wide) in paragraph at lines 99--99
 [][] 
  []
 
-) (./euvnoise.bbl [28]
+[28]) (./euvnoise.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 76--80
 []\TU/lmr/m/n/9 Fred-er-ick Chen.  Fred-er-ick chen linkedin pro-file.  08 2025.
   URL: [][]$\TU/lmtt/m/n/9 https://www.linkedin.com/in/
  []
 
-
-Underfull \hbox (badness 1142) in paragraph at lines 151--159
+[29]
+Underfull \hbox (badness 1142) in paragraph at lines 166--174
 []\TU/lmr/m/n/9 Mar-tin A. Green, Ya-jie Jiang, Ar-man Mah-boubi Soufi-ani, and Anita Ho-Baillie.  Op-ti-cal prop-er-ties of pho-
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 151--159
+Underfull \hbox (badness 1603) in paragraph at lines 166--174
 \TU/lmr/m/n/9 to-voltaic organic-inorganic lead halide per-ovskites.  \TU/lmr/m
 /it/9 The Jour-nal of Phys-i-cal Chem-istry Let-ters\TU/lmr/m/n/9 , 6, 12 2015.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--159
+Underfull \hbox (badness 10000) in paragraph at lines 166--174
 \TU/lmr/m/n/9 URL: [][]$\TU/lmtt/m/n/9 https://www.researchgate.net/profile/Arma
 n-[]Mahboubi-[]Soufiani/publication/283729703_Optical_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--159
+Underfull \hbox (badness 10000) in paragraph at lines 166--174
 \TU/lmtt/m/n/9 Properties_of_Photovoltaic_Organic-[]Inorganic_Lead_Halide_Perovs
 kites/links/614b94473c6cb31069875863/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--159
+Underfull \hbox (badness 10000) in paragraph at lines 166--174
 \TU/lmtt/m/n/9 Optical-[]Properties-[]of-[]Photovoltaic-[]Organic-[]Inorganic-[
 ]Lead-[]Halide-[]Perovskites.pdf$[][]\TU/lmr/m/n/9 , [][]$\TU/lmtt/m/n/9 doi:10.
 1021/acs.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--206
+Underfull \hbox (badness 10000) in paragraph at lines 224--232
 []\TU/lmr/m/n/9 Linda Hung, Fe-lipe H. da Jor-nada, Jaime Souto-Casares, James 
 R. Che-likowsky,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--206
+Underfull \hbox (badness 10000) in paragraph at lines 224--232
 \TU/lmr/m/n/9 Steven G. Louie, and Ser-dar ÖUx011f[bad char vv=287]üt.  Ex-ci-
 ta-tion spec-tra of aro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--206
+Underfull \hbox (badness 10000) in paragraph at lines 224--232
 \TU/lmr/m/n/9 matic molecules within a real-space<mml:math xmlns:mml=http://www.
 w3.org/1998/math-/-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--206
+Underfull \hbox (badness 10000) in paragraph at lines 224--232
 \TU/lmr/m/n/9 mathml><mml:mrow><mml:mi>g</mml:mi><mml:mi>w</mml:mi></mml:mrow></
 mml:math>-bse for-mal-ism:
  []
 
-[29] [30]
-Underfull \hbox (badness 2990) in paragraph at lines 470--479
+[30] [31]
+Underfull \hbox (badness 2990) in paragraph at lines 549--558
 []\TU/lmr/m/n/9 Mo-ham-mad S. M. Sai-ful-lah, Nikhil Ti-wale, and Ra-makr-ish-na
 n Gane-san.  Re-view of metal-containing re-
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 470--479
+Underfull \hbox (badness 6477) in paragraph at lines 549--558
 \TU/lmr/m/n/9 sists in elec-tron beam lithog-ra-phy: per-spec-tives for ex-treme
  ul-tra-vi-o-let pat-tern-ing.  \TU/lmr/m/it/9 Jour-nal of Mi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--479
+Underfull \hbox (badness 10000) in paragraph at lines 549--558
 \TU/lmr/m/it/9 cro/-Nanopat-tern-ing, Ma-te-ri-als, and Metrol-ogy\TU/lmr/m/n/9
  , 21, 10 2022.  URL: [][]$\TU/lmtt/m/n/9 https://www.spiedigitallibrary.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--479
+Underfull \hbox (badness 10000) in paragraph at lines 549--558
 \TU/lmtt/m/n/9 org/journals/journal-[]of-[]micro-[]nanopatterning-[]materials-[
 ]and-[]metrology/volume-[]21/issue-[]04/041402/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--479
+Underfull \hbox (badness 10000) in paragraph at lines 549--558
 \TU/lmtt/m/n/9 Review-[]of-[]metal-[]containing-[]resists-[]in-[]electron-[]beam
 -[]lithography/10.1117/1.JMM.21.4.041402.pdf$[][]\TU/lmr/m/n/9 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--568
+Underfull \hbox (badness 10000) in paragraph at lines 637--647
 []\TU/lmr/m/n/9 R. Wehlitz, D. Luk-iUx0107[bad char vv=263], and J. B. Bluett. 
  Res-o-nance pa-ram-e-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--568
+Underfull \hbox (badness 10000) in paragraph at lines 637--647
 \TU/lmr/m/n/9 ters of au-toion-iz-ing be<mml:math xmlns:mml=http://www.w3.org/19
 98/math-/-mathml dis-play=in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--568
+Underfull \hbox (badness 10000) in paragraph at lines 637--647
 \TU/lmr/m/n/9 line><mml:mn>2</mml:mn><mml:mi>p</mml:mi><mml:mi>n</mml:mi><mml:mi
  math-vari-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--568
+Underfull \hbox (badness 10000) in paragraph at lines 637--647
 \TU/lmr/m/n/9 ant=script>l</mml:mi></mml:math>states.  \TU/lmr/m/it/9 Phys-i-cal
  Re-view A\TU/lmr/m/n/9 , 68, 11 2003.  URL: [][]$\TU/lmtt/m/n/9 https://www.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--568
+Underfull \hbox (badness 10000) in paragraph at lines 637--647
 \TU/lmtt/m/n/9 researchgate.net/profile/Dragan-[]Lukic-[]2/publication/235465537
 _Resonance_Parameters_of_Autoionizing_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--568
+Underfull \hbox (badness 10000) in paragraph at lines 637--647
 \TU/lmtt/m/n/9 Be_2pnl_States/links/0046353a00a1352ed3000000/Resonance-[]Paramet
 ers-[]of-[]Autoionizing-[]Be-[]2pnl-[]States.pdf$[][]\TU/lmr/m/n/9 ,
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 579--587
+Underfull \hbox (badness 4072) in paragraph at lines 658--666
 []\TU/lmr/m/n/9 Hi-roshi Ya-m-agami and Ya-su-tami Takada.  Strong elec-tron cor
 -re-la-tion in a lo-cal-ized state de-scribed in
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 579--587
+Underfull \hbox (badness 2111) in paragraph at lines 658--666
 \TU/lmr/m/n/9 terms of ex-tended states: Gen-eral for-mu-la-tion and il-lus-tra-
 tion in a he-lium atom.  \TU/lmr/m/it/9 Jour-nal of the Phys-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--587
+Underfull \hbox (badness 10000) in paragraph at lines 658--666
 \TU/lmr/m/it/9 i-cal So-ci-ety of Japan\TU/lmr/m/n/9 , 67, 08 1998.  URL: [][]$
 \TU/lmtt/m/n/9 https://www.researchgate.net/profile/Yasutami-[]Takada/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--587
+Underfull \hbox (badness 10000) in paragraph at lines 658--666
 \TU/lmtt/m/n/9 publication/243566114_Strong_Electron_Correlation_in_a_Localized_
 State_Described_in_Terms_of_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--587
+Underfull \hbox (badness 10000) in paragraph at lines 658--666
 \TU/lmtt/m/n/9 Extended_States_General_Formulation_and_Illustration_in_a_Helium_
 Atom/links/544ef00a0cf29473161becb5/
  []
 
 
-Overfull \hbox (184.62589pt too wide) in paragraph at lines 579--587
+Overfull \hbox (184.62589pt too wide) in paragraph at lines 658--666
 \TU/lmtt/m/n/9 Strong-[]Electron-[]Correlation-[]in-[]a-[]Localized-[]State-[]De
 scribed-[]in-[]Terms-[]of-[]Extended-[]States-[]General-[]Formulation-[]and-[]Il
 lustration-[]in-[]a-[]Helium-[]Atom.
  []
 
-[31]) [32] Including 'mdpicomment' comment.
+[32]) [33] Including 'mdpicomment' comment.
 \openout4 = comment.cut
  Straight input of comment.cut.
 (./comment.cut) Including 'mdpicomment' comment.
@@ -1569,7 +1568,7 @@ lustration-[]in-[]a-[]Helium-[]Atom.
 Straight input of comment.cut. (./comment.cut Excluding 'comment' comment.
 (./mjm_math_stuff.tex) Excluding 'comment' comment.
 (/home/documents/latex/share/includes/disclaimer-gaslight.tex)
-(/home/documents/latex/share/includes/disclaimer-status.tex [33])
+(/home/documents/latex/share/includes/disclaimer-status.tex [34])
 (./releases.tex)
 Overfull \hbox (10.0pt too wide) in paragraph at lines 91--96
 []$[]$ 
@@ -1578,27 +1577,31 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 91--96
 Excluding 'comment' comment.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 110.
- (./euvnoise.bundle_checksums [34])) [35]
+ (./euvnoise.bundle_checksums [35])) [36]
 (./euvnoise.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `euvnoise.out' has not changed.
-(rerunfilecheck)             Checksum: 2C932CB8E8DCAC1AB2D1AC25C6CEC3FB;7172.
+(rerunfilecheck)             Checksum: C2D9BD090A043CF3C7561C90DAD833F7;8044.
 )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 390 ({)
+### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 35683 strings out of 475512
- 931605,1977958 words of node,token memory allocated
- 2360 words of node memory still in use:
-   11 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 389 attribute, 80 glue_sp
-ec, 389 attribute_list, 27 pdf_action nodes
-   avail lists: 2:7412,3:1357,4:356,5:23612,6:153,7:25128,8:392,9:48072,10:37,11
-:2518
- 57272 multiletter control sequences out of 65536+600000
+ 35732 strings out of 475512
+ 931577,1648299 words of node,token memory allocated
+ 2441 words of node memory still in use:
+   11 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 398 attribute, 83 glue_sp
+ec, 398 attribute_list, 32 pdf_action nodes
+   avail lists: 1:1,2:7428,3:1371,4:349,5:23660,6:153,7:25156,8:391,9:48180,10:3
+7,11:2524
+ 57301 multiletter control sequences out of 65536+600000
  80 fonts using 5517839 bytes
- 124i,15n,116p,553b,1406s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 124i,15n,116p,553b,1502s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono9-regular.otf></usr/share/texmf
 /fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texmf/fonts/opentype/
 public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroma
@@ -1623,10 +1626,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy9.pfb>
-Output written on euvnoise.pdf (35 pages, 530340 bytes).
+Output written on euvnoise.pdf (36 pages, 541208 bytes).
 
-PDF statistics: 1102 PDF objects out of 1200 (max. 8388607)
- 992 compressed objects within 10 object streams
- 410 named destinations out of 1000 (max. 131072)
- 312 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1167 PDF objects out of 1200 (max. 8388607)
+ 1055 compressed objects within 11 object streams
+ 425 named destinations out of 1000 (max. 131072)
+ 344 words of extra memory for PDF output out of 10000 (max. 100000000)
 

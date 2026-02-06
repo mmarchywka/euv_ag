@@ -29,12 +29,10 @@ Warning--entry type for "Kas_Rehr_Vila_Green_functions_applied_2022" isn't style
 --line 2562 of file euvnoise.bib
 Warning--entry type for "Rehr_Kas_Prange_Inelastic_Losses_Multi_2007" isn't style-file defined
 --line 2864 of file euvnoise.bib
-I was expecting an "="---line 2900 of file euvnoise.bib
- : url 
- :     a= {https://doi.org/10.1063/1.2644437},
-I'm skipping whatever remains of this entry
 Warning--entry type for "DouglasGuerreroadditionalGillesRAmblard_Dissociative_photoionization_2023" isn't style-file defined
 --line 4045 of file euvnoise.bib
+Warning--entry type for "RobertDAllen_Polymer_photochemistry_2010" isn't style-file defined
+--line 4233 of file euvnoise.bib
 Database file #3: mjm_tr.bib
 Database file #4: releases.bib
 Database file #5: ../copper/copper.bib
@@ -50,45 +48,45 @@ Warning--empty journal in Chen_Chen_Chen_Kaohsiung_City_Kaohsiung_City_2025
 Warning--empty year in Denbeaux_Azhari_Ai_Understanding_onset_
 Warning--empty year in Muller_Bernhardt_Borovik_Photoionization_Atoms_
 Warning--empty journal in Robinson_West_Midlands_England_United_2025
-You've used 71 entries,
+You've used 79 entries,
             2943 wiz_defined-function locations,
-            1245 strings with 33640 characters,
-and the built_in function-call counts, 36419 in all, are:
-= -- 3842
-> -- 1893
+            1312 strings with 36405 characters,
+and the built_in function-call counts, 41031 in all, are:
+= -- 4321
+> -- 2152
 < -- 5
-+ -- 704
-- -- 624
-* -- 2484
-:= -- 5380
-add.period$ -- 279
-call.type$ -- 71
-change.case$ -- 525
++ -- 804
+- -- 712
+* -- 2839
+:= -- 6065
+add.period$ -- 310
+call.type$ -- 79
+change.case$ -- 593
 chr.to.int$ -- 0
-cite$ -- 75
-duplicate$ -- 848
-empty$ -- 2787
-format.name$ -- 624
-if$ -- 9064
+cite$ -- 83
+duplicate$ -- 942
+empty$ -- 3141
+format.name$ -- 712
+if$ -- 10189
 int.to.chr$ -- 0
-int.to.str$ -- 71
-missing$ -- 62
-newline$ -- 423
-num.names$ -- 142
-pop$ -- 813
+int.to.str$ -- 79
+missing$ -- 69
+newline$ -- 470
+num.names$ -- 158
+pop$ -- 916
 preamble$ -- 1
-purify$ -- 454
+purify$ -- 514
 quote$ -- 0
-skip$ -- 2500
+skip$ -- 2768
 stack$ -- 0
-substring$ -- 846
-swap$ -- 311
-text.length$ -- 145
+substring$ -- 996
+swap$ -- 335
+text.length$ -- 163
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 284
+type$ -- 316
 warning$ -- 4
-while$ -- 159
-width$ -- 73
-write$ -- 926
-(There were 3 error messages)
+while$ -- 180
+width$ -- 81
+write$ -- 1034
+(There were 2 error messages)

@@ -104,6 +104,13 @@ Howard~T. Evans.
   {https://doi.org/10.1524/zkri.1979.150.14.299}
   {\path{doi:10.1524/zkri.1979.150.14.299}}.
 
+\bibitem{RobertDAllen_Polymer_photochemistry_2010}
+Theodore~H. Fedynyshyn, Russell~B. Goodman, Alberto Cabral, Charles Tarrio, and
+  Thomas~B. Lucatorto.
+\newblock Polymer photochemistry at the euv wavelength, 03 2010.
+\newblock \href {https://doi.org/10.1117/12.845997}
+  {\path{doi:10.1117/12.845997}}.
+
 \bibitem{Ferenc_Matyus_Born_Oppenheimer_Dirac_2023}
 D\'{a}vid Ferenc and Edit M\'{a}tyus.
 \newblock Pre-born-oppenheimer dirac-coulomb-breit computations for two-body
@@ -119,6 +126,14 @@ Hiroshi Fukuda.
 \newblock {\em Journal of Applied Physics}, 137, 05 2025.
 \newblock \href {https://doi.org/10.1063/5.0254984}
   {\path{doi:10.1063/5.0254984}}.
+
+\bibitem{Gatuzz_Garcia_Kallman_ISMabs_COMPREHENSIVE_2015}
+E.~Gatuzz, J.~Garc\'{i}a, T.~R. Kallman, C.~Mendoza, and T.~W. Gorczyca.
+\newblock Ismabs: A comprehensive x-ray absorption model for the interstellar
+  medium.
+\newblock {\em The Astrophysical Journal}, 800, 02 2015.
+\newblock \href {https://doi.org/10.1088/0004-637x/800/1/29}
+  {\path{doi:10.1088/0004-637x/800/1/29}}.
 
 \bibitem{DouglasGuerreroadditionalGillesRAmblard_Dissociative_photoionization_2023}
 Marziogiuseppe Gentile, Marius Gerlach, Robert Richter, Michiel~J. van Setten,
@@ -184,6 +199,17 @@ Muhammad~Waleed Hasan, Laura Deeb, Sergei Kumaniaev, Chenglu Wei, and Kaiying
 \newblock {\em Micromachines}, 08 2024.
 \newblock URL: \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC11433861/}, \href
   {https://doi.org/10.3390/mi15091122} {\path{doi:10.3390/mi15091122}}.
+
+\bibitem{HO2018306}
+Grace Hsiu-Ying Ho, Hung-Miao Lin, and Chen-Yu Yeh.
+\newblock Photo-electron chemistry of photoresist outgassing upon duv, vuv,
+  euv, and beuv irradiation.
+\newblock {\em Journal of Photochemistry and Photobiology A: Chemistry},
+  353:306--315, 2018.
+\newblock URL:
+  \url{https://www.sciencedirect.com/science/article/pii/S1010603017311280},
+  \href {https://doi.org/10.1016/j.jphotochem.2017.11.027}
+  {\path{doi:10.1016/j.jphotochem.2017.11.027}}.
 
 \bibitem{Hofierka_Rawlins_Cunningham_Many_body_theory_calculations_2023}
 J.~Hofierka, C.~M. Rawlins, B.~Cunningham, D.~T. Waide, and D.~G. Green.
@@ -300,6 +326,16 @@ Ingo~H. Leubner.
 \newblock URL:
   \url{https://www.imaging.org/common/uploaded%20files/pdfs/Papers/1999/PICS-0-42/977.pdf}.
 
+\bibitem{D4NA00651H}
+Cheng-Dun Li, Chun-Fu Chou, Yu-Fang Tseng, Burn-Jeng Lin, Tsai-Sheng Gau,
+  Po-Hsiung Chen, Po-Wen Chiu, Sun-Zen Chen, Shin-Lin Tsai, Wen-Bin Jian, and
+  Jui-Hsiung Liu.
+\newblock A highly hydroxylated 6-tin oxide cluster serves as an efficient
+  e-beam and euv-photoresist to achieve high-resolution patterns.
+\newblock {\em Nanoscale Adv.}, 7:1838--1850, 2025.
+\newblock URL: \url{http://dx.doi.org/10.1039/D4NA00651H}, \href
+  {https://doi.org/10.1039/D4NA00651H} {\path{doi:10.1039/D4NA00651H}}.
+
 \bibitem{Liou_Hudson_Wonnell_Ionic_Hall_effect_1990}
 Y.~J. Liou, R.~A. Hudson, S.~K. Wonnell, and L.~M. Slifkin.
 \newblock Ionic hall effect in crystals: Independent versus cooperative hopping
@@ -342,6 +378,17 @@ Chris~A. Mack.
 \newblock Stochastic limitations to euv lithography, 04 2018.
 \newblock \href {https://doi.org/10.1109/vlsi-tsa.2018.8403862}
   {\path{doi:10.1109/vlsi-tsa.2018.8403862}}.
+
+\bibitem{NeisserMark2012}
+Neisser Mark, Kyoungyong Cho, and Karen Petrillo.
+\newblock The physics of euv photoresist and how it drives strategies for
+  improvement.
+\newblock {\em Journal of Photopolymer Science and Technology}, 25(1):8794,
+  2012.
+\newblock URL:
+  \url{https://www.jstage.jst.go.jp/article/photopolymer/25/1/25_87/_pdf},
+  \href {https://doi.org/10.2494/photopolymer.25.87}
+  {\path{doi:10.2494/photopolymer.25.87}}.
 
 \bibitem{Masthay_Beach_Eckerle_Photochemical_characterization_rate_2024}
 Mark~B. Masthay, Aaron~E. Beach, Rose~M. Eckerle, Begum Fouzia, Peter~W. Hovey,
@@ -395,6 +442,28 @@ Alfred M\"{u}ller, Dietrich Bernhardt, Alexander Borovik, Ticia Buhr, Jonas
   \href {https://doi.org/10.3847/1538-4357/836/2/166}
   {\path{doi:10.3847/1538-4357/836/2/166}}.
 
+\bibitem{MichaelMurphy2021}
+Michael Murphy, Maximilian Weires, Nitinkumar~S. Upadhyay, Philip Schuler,
+  Shaheen Hasan, Greg Denbeaux, and Robert~L. Brainard.
+\newblock Euv photochemistry of substituted antimony carboxylate complexes.
+\newblock {\em Journal of Photopolymer Science and Technology}, 34(1):8186,
+  2021.
+\newblock URL:
+  \url{https://www.jstage.jst.go.jp/article/photopolymer/34/1/34_81/_pdf},
+  \href {https://doi.org/10.2494/photopolymer.34.81}
+  {\path{doi:10.2494/photopolymer.34.81}}.
+
+\bibitem{AmritNarasimhan2017}
+Amrit Narasimhan, Liam Wisehart, Steven Grzeskowiak, Leonidas~E. Ocola, Greg
+  Denbeaux, and Robert~L. Brainard.
+\newblock What we dont know about euv exposure mechanisms.
+\newblock {\em Journal of Photopolymer Science and Technology}, 30(1):113120,
+  2017.
+\newblock URL:
+  \url{https://www.jstage.jst.go.jp/article/photopolymer/30/1/30_113/_pdf},
+  \href {https://doi.org/10.2494/photopolymer.30.113}
+  {\path{doi:10.2494/photopolymer.30.113}}.
+
 \bibitem{Newman_Frank_Matlack_ionic_hall_effect_1977}
 David~S. Newman, Curt Frank, Richard~W. Matlack, Sally Twining, and Vimela
   Krishnan.
@@ -423,9 +492,11 @@ Carmen Popescu, Yannick Vesters, Alexandra McClelland, Danilo~De Simone, Guy
 \bibitem{Rehr_Kas_Prange_Inelastic_Losses_Multi_2007}
 J.~J. Rehr, J.~J. Kas, M.~P. Prange, A.~P. Sorini, L.~W. Campbell, and F.~D.
   Vila.
-\newblock Inelastic losses and multi-electron excitations in x-ray spectra.
-\newblock \href {https://doi.org/10.1063/1.2644437}
-  {\path{doi:10.1063/1.2644437}}.
+\newblock Inelastic losses and multi-electron excitations in x-ray spectra,
+  2007.
+\newblock URL:
+  \url{https://www.slac.stanford.edu/econf/C060709/papers/017_THM11.PDF}, \href
+  {https://doi.org/10.1063/1.2644437} {\path{doi:10.1063/1.2644437}}.
 
 \bibitem{Rehr_Kas_Prange_initio_theory_2009}
 John~J. Rehr, Joshua~J. Kas, Micah~P. Prange, Adam~P. Sorini, Yoshinari
@@ -455,6 +526,14 @@ Dario Rocca, Deyu Lu, and Giulia Galli.
 \newblock {\em The Journal of Chemical Physics}, 133, 10 2010.
 \newblock \href {https://doi.org/10.1063/1.3494540}
   {\path{doi:10.1063/1.3494540}}.
+
+\bibitem{Sadegh_Evrard_Kraus_Absorption_Spectroscopy_2024}
+Najmeh Sadegh, Quentin Evrard, Peter~M. Kraus, and Albert~M. Brouwer.
+\newblock Xuv absorption spectroscopy and photoconversion of a tin-oxo cage
+  photoresist.
+\newblock {\em The Journal of Physical Chemistry C}, 128, 03 2024.
+\newblock \href {https://doi.org/10.1021/acs.jpcc.3c07480}
+  {\path{doi:10.1021/acs.jpcc.3c07480}}.
 
 \bibitem{PMC10926160}
 Najmeh Sadegh, Quentin Evrard, Peter~M Kraus, and Albert~M Brouwer.
